@@ -45,8 +45,14 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 
 /* Sizes */
 
+.bloc-xxl{
+	padding:200px 20px;
+}
 .bloc-lg{
 	padding:100px 20px;
+}
+.bloc-md{
+	padding:50px 20px;
 }
 .bloc-sm{
 	padding:20px;
@@ -1140,6 +1146,10 @@ h1{
 	background-color:rgba(255,255,255,0.50);
 }
 .h1-discography-style{
+	font-size:40px;
+	color:#FFFFFF!important;
+	text-align:center;
+	text-transform:uppercase;
 	font-family:"Lato";
 	font-weight:300;
 }
@@ -1347,6 +1357,12 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		padding-right:10px;
 		width:25%;
 	}
+	.h1-discography-style{
+		text-align:center;
+		color:#FFFFFF!important;
+		font-size:40px;
+		text-transform:uppercase;
+	}
 	
 	/* MD Row Margin Offsets */
 	.voffset-clear-md{
@@ -1462,6 +1478,12 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	.menu-icon-stroke{
 		stroke:#000000!important;
 		fill:#000000!important;
+	}
+	.h1-discography-style{
+		font-size:32px;
+		color:#FFFFFF!important;
+		text-align:center;
+		text-transform:uppercase;
 	}
 	
 	/* Small Text Margin Offsets */
@@ -1604,6 +1626,14 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		padding-left:10px;
 		padding-right:10px;
 		width:100%;
+	}
+	.h1-discography-style{
+		font-size:28px;
+		text-align:center;
+		color:#FFFFFF!important;
+		font-weight:300;
+		font-family:"Lato";
+		text-transform:uppercase;
 	}
 	
 	/* Mobile Row Margin Offsets */
