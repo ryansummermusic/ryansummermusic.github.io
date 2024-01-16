@@ -1093,6 +1093,8 @@ h1{
 	justify-content:center;
 	width:100%;
 	justify-items:center;
+	padding-left:15px;
+	padding-right:15px;
 }
 .artwork-columns{
 	display:flex;
@@ -1190,9 +1192,6 @@ h1{
 	align-self:center;
 	justify-self:center;
 	justify-content:center;
-	align-content:center;
-	justify-items:center;
-	align-items:center;
 }
 .listen-style{
 	font-size:32px;
@@ -1434,6 +1433,8 @@ url("img/RS%20@%20Glenwood%20with%20Flo%20Rida.webp") 2x);
 		justify-content:center;
 		align-items:center;
 		justify-items:center;
+		padding-left:15px;
+		padding-right:15px;
 	}
 	.artwork-columns{
 		padding-left:10px;
@@ -1479,6 +1480,8 @@ url("img/RS%20@%20Glenwood%20with%20Flo%20Rida.webp") 2x);
 		padding-bottom:25px;
 		font-family:"Lato";
 		font-weight:700;
+	}
+	.player-widget{
 	}
 	
 	/* MD Row Margin Offsets */
@@ -1562,8 +1565,8 @@ url("img/RS%20@%20Glenwood%20with%20Flo%20Rida.webp") 2x);
 	.bloc-0-margin-top{
 	}
 	.artwork-row{
-		padding-left:10%;
-		padding-right:10%;
+		padding-left:15%;
+		padding-right:15%;
 		justify-items:center;
 	}
 	.awesome-wrapper{
@@ -1631,6 +1634,8 @@ url("img/RS%20@%20Glenwood%20with%20Flo%20Rida.webp") 2x);
 	}
 	.view-more-links:hover{
 		font-size:18px;
+	}
+	.player-widget{
 	}
 	
 	/* Small Text Margin Offsets */
@@ -1765,6 +1770,8 @@ url("img/RS%20@%20Glenwood%20with%20Flo%20Rida.webp") 2x);
 		align-items:center;
 		justify-content:center;
 		align-content:center;
+		padding-left:15%;
+		padding-right:15%;
 	}
 	.artwork-columns{
 		padding-left:10px;
