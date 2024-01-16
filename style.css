@@ -118,10 +118,6 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 	-o-background-size: auto!important;
 	background-size: auto!important;
 }
-.bg-b-edge{
-	background-position: bottom!important;
-	background-repeat: no-repeat;
-}
 
 
 /* Video Background Styles */
