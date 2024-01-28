@@ -2678,6 +2678,7 @@ url("img/RS%20@%20APG%20Wide.webp") 2x);
 	}
 	.bg-image-fixed-sm-xs{
 		z-index:-1;
+		display:flex;
 		background-image:url("img/Ryan%20DT%20LA.jpg");
 	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
 url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
@@ -2695,10 +2696,6 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
 url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
 url("img/Ryan%20DT%20LA.webp") 2x);
-		background-origin:initial;
-		display:flex;
-		background-repeat:no-repeat;
-		background-attachment:fixed;
 	}
 	
 	/* Mobile Text Margin Offsets */
