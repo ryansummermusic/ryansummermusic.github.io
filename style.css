@@ -997,7 +997,7 @@ h1{
 }
 .carousel-padding-top{
 	display:flex;
-	width:60%;
+	width:55%;
 }
 .carousel-padding-top:hover{
 	background-color:#000000;
@@ -1287,8 +1287,6 @@ h1{
 .bg-image-fixed{
 	align-items:center;
 	justify-content:center;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
 }
 .for-class{
 	color:#FFFFFF!important;
@@ -1491,11 +1489,10 @@ h1{
 }
 .h1-about-style{
 	font-size:50px;
-	font-family:"Lato-Light";
+	font-family:"Montserrat-Light";
 	text-transform:none;
 	color:#FFFFFF!important;
-	letter-spacing:2px;
-	background-color:var(--swatch-var-6873);
+	letter-spacing:4px;
 	text-shadow:0.00px -0.00px 50px #000000;
 	text-decoration:none;
 	font-weight:normal;
@@ -1602,7 +1599,28 @@ h1{
 }
 .abt-text-bloc{
 	background-color:#000000;
+	background-size:auto 100%;
 	background-image:url("img/Ryan%20DT%20LA.jpg");
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
 	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
 url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
 url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
@@ -1647,6 +1665,43 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 .plus-icon:hover{
 	color:#FFFFFF!important;
 }
+.abt-text-bloc-sm-xs{
+	background-color:#000000;
+	background-image:url("img/Ryan%20DT%20LA.jpg");
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+}
+.bg-image-fixed-sm-xs{
+	align-items:center;
+	justify-content:center;
+	background-repeat:no-repeat;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1670,7 +1725,7 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	
 	--swatch-var-7543:rgba(253,255,255,1.00);
 	
-	--swatch-var-1046:#000000;
+	--swatch-var-1046:rgba(0,0,0,1.00);
 	
 	--swatch-var-6130:rgba(255,255,255,0.75);
 	
@@ -1679,14 +1734,11 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 
 /* Background colour styles */
 
-.bgc-6873{
-	background-color:var(--swatch-var-6873);
-}
 .bgc-1046{
 	background-color:var(--swatch-var-1046);
 }
-.bgc-5411{
-	background-color:var(--swatch-var-5411);
+.bgc-6873{
+	background-color:var(--swatch-var-6873);
 }
 
 /* Text colour styles */
@@ -1721,6 +1773,26 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 
 .bg-Ryan-20DT-20LA{
 	background-image:url("img/Ryan%20DT%20LA.jpg");
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
 	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
 url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
 url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
@@ -2019,6 +2091,37 @@ url("img/RS%20@%20APG%20Wide.webp") 2x);
 	.card-p-class{
 		font-size:22px;
 	}
+	.abt-text-bloc{
+		background-image:url("img/Ryan%20DT%20LA.jpg");
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	}
 	
 	/* MD Row Margin Offsets */
 	.voffset-clear-md{
@@ -2136,6 +2239,7 @@ url("img/RS%20@%20APG%20Wide.webp") 2x);
 		color:#FFFFFF!important;
 	}
 	.carousel-padding-top{
+		width:60%;
 	}
 	.welcome{
 		font-size:40px;
@@ -2279,6 +2383,37 @@ url("img/RS%20@%20APG%20Wide.webp") 2x);
 	}
 	.card-p-class{
 		font-size:20px;
+	}
+	.abt-text-bloc{
+		background-image:url("img/Ryan%20DT%20LA.jpg");
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
 	}
 	
 	/* Small Text Margin Offsets */
@@ -2436,6 +2571,9 @@ url("img/RS%20@%20APG%20Wide.webp") 2x);
 	.feat-work-cara-cont{
 	}
 	.carousel-padding-top{
+		display:flex;
+		width:80%;
+		opacity:1.0;
 	}
 	.h1-welcome-style{
 		font-size:30px;
@@ -2472,13 +2610,13 @@ url("img/RS%20@%20APG%20Wide.webp") 2x);
 	}
 	.view-more-links{
 		color:#FFFFFF!important;
-		font-size:12px;
+		font-size:16px;
 		text-decoration:none;
 		border-width:1px 1px 1px 1px;
 		border-radius:100px 100px 100px 100px;
 	}
 	.view-more-links:hover{
-		font-size:12px;
+		font-size:16px;
 	}
 	.menu-icon-0-stroke{
 		stroke:var(--swatch-var-1262)!important;
@@ -2538,6 +2676,8 @@ url("img/RS%20@%20APG%20Wide.webp") 2x);
 	}
 	.about-text-style{
 		font-size:18px;
+		font-family:"Lato-Light";
+		text-transform:none;
 	}
 	.h1-about-style{
 		font-size:35px;
@@ -2629,6 +2769,81 @@ url("img/RS%20@%20APG%20Wide.webp") 2x);
 	}
 	.bot-nav-ham:hover{
 		color:#FFFFFF!important;
+	}
+	.bg-image-fixed{
+		background-attachment:fixed;
+	}
+	.abt-text-bloc{
+		background-image:url("img/Ryan%20DT%20LA.jpg");
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+		background-size:auto 100%;
+	}
+	.abt-text-bloc-sm-xs{
+		background-attachment:initial;
+		background-color:#000000;
+	}
+	.bg-image-fixed-sm-xs{
+		background-image:url("img/Ryan%20DT%20LA.jpg");
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+	background-image: -webkit-image-set(url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
+url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
+url("img/Ryan%20DT%20LA.webp") 2x);
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		overflow:initial;
+	}
+	.abt-text-bg-col{
 	}
 	
 	/* Mobile Text Margin Offsets */
