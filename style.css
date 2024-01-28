@@ -25,6 +25,15 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 -------------------------------------------------------------- */
 
 @font-face {
+	font-family:'Lato-Regular';
+	src: url('./fonts/Lato-Regular/Lato-Regular.ttf');
+	src: url('./fonts/Lato-Regular/Lato-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display:swap;
+}
+
+@font-face {
 	font-family:'Lato-Light';
 	src: url('./fonts/Lato-Light/Lato-Light.ttf');
 	src: url('./fonts/Lato-Light/Lato-Light.ttf') format('truetype');
@@ -46,15 +55,6 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 	font-family:'Montserrat-Light';
 	src: url('./fonts/Montserrat-Light/Montserrat-Light.ttf');
 	src: url('./fonts/Montserrat-Light/Montserrat-Light.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-	font-display:swap;
-}
-
-@font-face {
-	font-family:'Lato-Regular';
-	src: url('./fonts/Lato-Regular/Lato-Regular.ttf');
-	src: url('./fonts/Lato-Regular/Lato-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 	font-display:swap;
@@ -1703,6 +1703,9 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 
 /* Background colour styles */
 
+.bgc-6873{
+	background-color:var(--swatch-var-6873);
+}
 .bgc-1046{
 	background-color:var(--swatch-var-1046);
 }
@@ -2684,6 +2687,8 @@ url("img/Ryan%20DT%20LA%20upscaled%2040%25.webp") 2x);
 	}
 	.bg-image-fixed-sm-xs{
 		background-attachment:fixed;
+		z-index:-1;
+		display:flex;
 	}
 	
 	/* Mobile Text Margin Offsets */
