@@ -855,9 +855,9 @@ h1{
 	font-family:"Lato-Light";
 	font-weight:normal;
 	font-size:50px;
-	text-align:center;
-	letter-spacing:2px;
+	letter-spacing:3px;
 	text-shadow:0.00px -0.00px 50px #000000;
+	text-align:center;
 }
 .h3-padding-top{
 	color:#FFFFFF!important;
@@ -1072,7 +1072,7 @@ h1{
 }
 .h1-discography-style{
 	font-size:50px;
-	color:rgba(255,255,255,0.75)!important;
+	color:#FFFFFF!important;
 	text-align:center;
 	text-transform:uppercase;
 	font-family:"Lato-Light";
@@ -1086,10 +1086,6 @@ h1{
 .h2-lastest-work-style{
 	font-family:"Lato";
 	font-weight:300;
-}
-.h1-welcome-style{
-	font-size:50px;
-	color:#FFFFFF!important;
 }
 .flex-wrapper{
 	justify-content:center;
@@ -1156,8 +1152,6 @@ h1{
 	font-weight:bold;
 	color:rgba(255,255,255,0.75)!important;
 	text-align:center;
-	padding-top:15px;
-	padding-bottom:0px;
 	text-transform:none;
 	text-decoration:none;
 	letter-spacing:3px;
@@ -1462,11 +1456,11 @@ h1{
 	font-size:50px;
 	font-family:"Montserrat-Light";
 	text-transform:none;
-	color:#FFFFFF!important;
+	color:rgba(255,255,255,0.75)!important;
 	letter-spacing:4px;
 	text-shadow:0.00px -0.00px 50px #000000;
 	text-decoration:none;
-	font-weight:normal;
+	font-weight:bold;
 	background-color:rgba(0,0,0,0.50);
 	background-size:length;
 }
@@ -1579,9 +1573,6 @@ h1{
 	background-color:rgba(255,255,255,0.50);
 	background:linear-gradient(0deg, #000000 0%, rgba(0,0,0,0.75) 100%);
 }
-.home-h1-row{
-	display:flex;
-}
 .social-ham-links-2{
 	color:rgba(255,255,255,0.75)!important;
 }
@@ -1643,6 +1634,16 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 }
 .abt-text-bg-col{
 	margin-top:5%;
+}
+.h1-welcome-style{
+	font-size:50px;
+	color:#FFFFFF!important;
+	text-align:center;
+	text-transform:uppercase;
+	font-family:"Lato-Light";
+	font-weight:normal;
+	line-height:60px;
+	letter-spacing:2px;
 }
 
 /* = Colour
@@ -1941,9 +1942,6 @@ url("img/RS%20Venice%20View%20Clip%201%20darkened.webp") 2x);
 	}
 	.feat-work-cara-cont{
 	}
-	.h1-welcome-style{
-		color:#FFFFFF!important;
-	}
 	.welcome{
 		font-size:50px;
 	}
@@ -1958,7 +1956,6 @@ url("img/RS%20Venice%20View%20Clip%201%20darkened.webp") 2x);
 	.bloc-padding-bottom{
 	}
 	.listen-style{
-		padding-top:15px;
 	}
 	.divider-bloc-20-style{
 		width:75%;
@@ -1995,7 +1992,7 @@ url("img/RS%20Venice%20View%20Clip%201%20darkened.webp") 2x);
 		font-size:14px;
 	}
 	.fd-h1-style{
-		color:#FFFFFF!important;
+		color:rgba(255,255,255,0.75)!important;
 	}
 	.p-bloc-2-style{
 		font-size:20px;
@@ -2083,6 +2080,12 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20DT%20LA.jpg") 1x,
 url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
 url("img/Ryan%20DT%20LA.webp") 2x);
+	}
+	.h1-welcome-style{
+		text-align:center;
+		color:#FFFFFF!important;
+		font-size:50px;
+		text-transform:uppercase;
 	}
 	
 	/* MD Row Margin Offsets */
@@ -2196,9 +2199,6 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	}
 	.blocs-card-width{
 		width:50%;
-	}
-	.h1-welcome-style{
-		color:#FFFFFF!important;
 	}
 	.carousel-padding-top{
 		width:60%;
@@ -2371,6 +2371,13 @@ url("img/Ryan%20DT%20LA.webp") 2x);background-image: image-set(url("img/Ryan%20D
 url("img/Ryan%20DT%20LA.jpg") 2x,url("img/Ryan%20DT%20LA.webp") 1x,
 url("img/Ryan%20DT%20LA.webp") 2x);
 	}
+	.h1-welcome-style{
+		font-size:40px;
+		color:#FFFFFF!important;
+		text-align:center;
+		text-transform:uppercase;
+		line-height:60px;
+	}
 	
 	/* Small Text Margin Offsets */
 	.mg-clear-sm{
@@ -2531,9 +2538,6 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		width:80%;
 		opacity:1.0;
 	}
-	.h1-welcome-style{
-		font-size:30px;
-	}
 	.feat-disc{
 		font-size:24px;
 		justify-content:center;
@@ -2558,8 +2562,6 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		background-color:transparent;
 	}
 	.listen-style{
-		padding-top:15px;
-		padding-bottom:0px;
 		font-size:22px;
 	}
 	.divider-bloc-20-style{
@@ -2628,7 +2630,7 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	}
 	.serv-h1-style{
 		font-family:"Lato-Light";
-		font-weight:normal;
+		font-weight:bold;
 		font-size:35px;
 	}
 	.about-text-style{
@@ -2766,6 +2768,15 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	.abt-text-bloc-sm-xs{
 		background-size:auto 100%;
 		width:100%;
+	}
+	.h1-welcome-style{
+		font-size:35px;
+		text-align:center;
+		color:#FFFFFF!important;
+		font-weight:normal;
+		font-family:"Lato-Light";
+		text-transform:uppercase;
+		line-height:60px;
 	}
 	
 	/* Mobile Text Margin Offsets */
