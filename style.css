@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------------------------------
 	RyanSummer.com
-	About: A shiny new Blocs website.
+	About: Ryan Summer's Offical website
 	Author: Ryan Summer
 	Version: 1.0
 	Built with Blocs
@@ -8,7 +8,7 @@
 body{
 	margin:0;
 	padding:0;
-    background:#FFFFFF;
+    background:#000000;
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
