@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------------------------------
 	RyanSummer.com
-	About: Ryan Summer's Official Website
+	About: Ryan Summer's Offical Website
 	Author: Ryan Summer
 	Version: 1.0
 	Built with Blocs
@@ -1783,13 +1783,6 @@ url("img/RS%20Venice%20View%20Clip%201%20darkened.webp") 2x);background-image: i
 url("img/RS%20Venice%20View%20Clip%201%20darkened.jpg") 2x,url("img/RS%20Venice%20View%20Clip%201%20darkened.webp") 1x,
 url("img/RS%20Venice%20View%20Clip%201%20darkened.webp") 2x);
 }
-.bg-RYAN-20SUMMER-20MUSIC-202024{
-	background-image:url("img/RYAN%20SUMMER%20MUSIC%202024.png");
-	background-image: -webkit-image-set(url("img/RYAN%20SUMMER%20MUSIC%202024.webp") 1x,
-url("img/RYAN%20SUMMER%20MUSIC%202024.webp") 2x);background-image: image-set(url("img/RYAN%20SUMMER%20MUSIC%202024.png") 1x,
-url("img/RYAN%20SUMMER%20MUSIC%202024.png") 2x,url("img/RYAN%20SUMMER%20MUSIC%202024.webp") 1x,
-url("img/RYAN%20SUMMER%20MUSIC%202024.webp") 2x);
-}
 
 
 
@@ -2093,6 +2086,9 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		color:#FFFFFF!important;
 		font-size:50px;
 		text-transform:uppercase;
+	}
+	.faq-links:hover{
+		font-size:20px;
 	}
 	
 	/* MD Row Margin Offsets */
