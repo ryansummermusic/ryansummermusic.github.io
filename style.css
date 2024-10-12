@@ -25,15 +25,6 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 -------------------------------------------------------------- */
 
 @font-face {
-	font-family:'Lato-Regular';
-	src: url('./fonts/Lato-Regular/Lato-Regular.ttf');
-	src: url('./fonts/Lato-Regular/Lato-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-	font-display:swap;
-}
-
-@font-face {
 	font-family:'Lato-Light';
 	src: url('./fonts/Lato-Light/Lato-Light.ttf');
 	src: url('./fonts/Lato-Light/Lato-Light.ttf') format('truetype');
@@ -46,6 +37,15 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 	font-family:'Montserrat-Light';
 	src: url('./fonts/Montserrat-Light/Montserrat-Light.ttf');
 	src: url('./fonts/Montserrat-Light/Montserrat-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display:swap;
+}
+
+@font-face {
+	font-family:'Lato-Regular';
+	src: url('./fonts/Lato-Regular/Lato-Regular.ttf');
+	src: url('./fonts/Lato-Regular/Lato-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 	font-display:swap;
@@ -2078,7 +2078,7 @@ url("img/Galaxy%20Background.webp") 2x);
 		font-size:50px;
 	}
 	.feat-disc{
-		font-size:34px;
+		font-size:32px;
 		font-weight:bold;
 	}
 	.cont-class{
@@ -2349,7 +2349,7 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		font-size:40px;
 	}
 	.feat-disc{
-		font-size:28px;
+		font-size:26px;
 		padding-top:25px;
 		padding-bottom:25px;
 	}
@@ -2688,11 +2688,11 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		opacity:1.0;
 	}
 	.feat-disc{
-		font-size:24px;
+		font-size:22px;
 		justify-content:center;
 		padding-top:20px;
 		padding-bottom:20px;
-		font-family:"Lato-LightItalic";
+		font-family:"Montserrat-Light";
 		font-weight:bold;
 	}
 	.flex-wrapper{
