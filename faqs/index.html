@@ -9,9 +9,9 @@
 	<meta name="robots" content="index, follow">
     <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
     
-	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?9846">
-	<link rel="stylesheet" type="text/css" href="../style.css?809">
-	<link rel="stylesheet" type="text/css" href="../css/animate.min.css?2325">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1139">
+	<link rel="stylesheet" type="text/css" href="../style.css?9487">
+	<link rel="stylesheet" type="text/css" href="../css/animate.min.css?9214">
 	<link rel="stylesheet" type="text/css" href="../css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/feather.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/linecons.min.css">
@@ -62,7 +62,7 @@
 <div class="page-container">
     
 <!-- primary-nav -->
-<div class="bloc none sticky-nav animated fadeIn primarynav-class d-bloc " id="primary-nav" data-appear-anim-style="fadeIn">
+<div class="bloc none sticky-nav primarynav-class d-bloc " id="primary-nav" data-bs-theme="dark">
 	<div class="container -md bloc-no-padding-md bloc-no-padding bloc-no-padding-lg">
 		<div class="row none">
 			<div class="col">
@@ -75,13 +75,23 @@
 						<div class="collapse navbar-collapse navbar-24893 special-dropdown-nav  fullscreen-nav open-down">
 								<ul class="site-navigation nav navbar-nav main-menu ms-auto">
 									<li class="nav-item">
-										<a href="../" class="nav-link menu-item-style animated pulse-hvr">Home</a>
-									</li>
-									<li class="nav-item">
 										<a href="../discography/" class="nav-link menu-item-style animated pulse-hvr">Discography</a>
 									</li>
 									<li class="nav-item">
 										<a href="../services/" class="nav-link menu-item-style animated pulse-hvr">Services</a>
+									</li>
+									<li class="nav-item">
+										<div class="dropdown btn-dropdown dropdown">
+											<a href="#" class="nav-link menu-item-style animated pulse-hvr dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">File Delivery</a>
+											<ul class="dropdown-menu fd-dropdown-list-style" role="menu">
+												<li class="nav-item animated pulse-hvr">
+													<a href="../file-delivery-mixing/" class="nav-link a-btn fd-dropdown-subclass2">Mixing</a>
+												</li>
+												<li class="nav-item animated pulse-hvr">
+													<a href="../file-delivery-mastering/" class="nav-link a-btn fd-dropdown-subclass2">Mastering</a>
+												</li>
+											</ul>
+										</div>
 									</li>
 									<li class="nav-item">
 										<a href="." class="nav-link menu-item-style animated pulse-hvr">FAQs</a>
@@ -91,6 +101,9 @@
 									</li>
 									<li class="nav-item">
 										<a href="../contact/" class="nav-link menu-item-style animated pulse-hvr">Contact</a>
+									</li>
+									<li class="nav-item">
+										<a href="https://shop.ryansummer.com" class="nav-link menu-item-style animated pulse-hvr">Store</a>
 									</li>
 									<li class="pt-sm-3 mt-2  d-md-none d-block">
 										<div class="text-center  d-md-none d-block">
@@ -116,7 +129,7 @@
 					<div class="container-div-bloc-2-margin-bottom">
 					</div>
 					<div class="text-center">
-						<span class="far fa-comments icon-6130 icon-lg"></span>
+						<span class="far fa-comments icon-lg icon-1262"></span>
 					</div>
 				</div>
 				<h1 class="text-center mg-lg faq-h1-style">
@@ -161,7 +174,7 @@
 						<a href="#" class="btn faq-topics-text btn-rd btn-d w-100" data-scroll-speed="0" onclick="scrollToTarget('#bloc-file-delivery-faqs',this)">File Delivery</a>
 					</div>
 				</div>
-				<div class="row mb-lg-5">
+				<div class="row">
 					<div class="col text-start">
 						<div class="divider-h divider-padding mb-lg-5">
 						</div>
@@ -173,17 +186,17 @@
 </div>
 <!-- bloc-32 END -->
 
-<!-- bloc-mixing-faqa -->
-<div class="bloc faq-bloc-1-bg d-bloc none" id="bloc-mixing-faqa">
+<!-- bloc-mastering-faqs -->
+<div class="bloc faq-bloc-1-bg d-bloc none" id="bloc-mastering-faqs">
 	<div class="container bloc-no-padding-lg">
-		<div class="row">
-			<div class="col text-start mt-md-5 mt-5">
+		<div class="row mt-lg-0">
+			<div class="col text-start mt-md-5 mt-5 mt-lg-0">
 				<div class="text-center">
-					<span class="icon-md fab fa-deezer mb-lg-2 icon-6130"></span>
+					<span class="icon-md fab fa-deezer mb-lg-2 icon-1262"></span>
 				</div>
 			</div>
 		</div>
-		<div class="row mb-lg-5 mb-sm-4 mb-md-5">
+		<div class="row mb-sm-4 mb-md-5 mb-lg-5">
 			<div class="col text-start">
 				<h3 class="mg-clear text-md-center text-sm-center text-center text-lg-center faq-p-text mb-lg-2 mb-sm-3 mb-5">
 					Mixing FAQs<br>
@@ -218,12 +231,12 @@
 				</div>
 				<div id="accordion-24504">
 						<div class="card faq-card-class">
-							<div class="card-header" id="heading1">
+							<div class="card-header card-h-class" id="heading1">
 								<div class="text-center q-div-cont text-lg-center">
 									<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-1" aria-controls="accordion-24504-item-1">How would you like to receive the files to mix?</a><span class="float-md-end float-sm-end float-end feather-icon icon-plus plus-icon acc-link-icon icon-md float-lg-end" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-1"></span><span class="float-md-end float-sm-end float-end feather-icon icon-minus d-none minus-icon acc-link-icon icon-md" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-1"></span>
 								</div>
 							</div>
-							<div id="accordion-24504-item-1" class="collapse" data-bs-parent="#accordion-24504" aria-labelledby="heading1">
+							<div id="accordion-24504-item-1" class="collapse card-a-class" data-bs-parent="#accordion-24504" aria-labelledby="heading1">
 								<div class="card-body">
 									<div class="div-for-sl">
 										<p class="card-p-class mx-auto d-block text-center">
@@ -239,7 +252,7 @@
 									<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" aria-controls="accordion-24504-item-2" data-bs-target="#accordion-24504-item-2">How much do you charge for mixing?</a><span class="float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-2"></span><span class="float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-2"></span>
 								</div>
 							</div>
-							<div id="accordion-24504-item-2" class="collapse" aria-labelledby="heading2" data-bs-parent="#accordion-24504">
+							<div id="accordion-24504-item-2" class="collapse card-a-class" aria-labelledby="heading2" data-bs-parent="#accordion-24504">
 								<div class="card-body">
 									<p class="card-p-class text-center mx-auto d-block">
 										I charge an hourly rate of $80 USD/hour as of Jan 2024.&nbsp;
@@ -253,7 +266,7 @@
 									<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-3" aria-controls="#accordion-24504-item-3">How long does it usually take you to do a mix?</a><span class="float-lg-end float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-3"></span><span class="float-lg-end float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-3"></span>
 								</div>
 							</div>
-							<div id="accordion-24504-item-3" class="collapse" aria-labelledby="heading3" data-bs-parent="#accordion-24504">
+							<div id="accordion-24504-item-3" class="collapse card-a-class" aria-labelledby="heading3" data-bs-parent="#accordion-24504">
 								<div class="card-body">
 									<p class="card-p-class mx-auto d-block text-center">
 										A mix usually takes me an average of 6 hours, but can be more or less depending on how many vocal tracks there are. Mixing the instrumental only takes 1-2 hours on average.
@@ -267,7 +280,7 @@
 									<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-4" aria-controls="accordion-24504-item-4">If I send you the session, can you give me a better estimate?</a><span class="float-lg-end float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-4"></span><span class="float-lg-end float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-4"></span>
 								</div>
 							</div>
-							<div id="accordion-24504-item-4" class="collapse" aria-labelledby="heading4" data-bs-parent="#accordion-24504">
+							<div id="accordion-24504-item-4" class="collapse card-a-class" aria-labelledby="heading4" data-bs-parent="#accordion-24504">
 								<div class="card-body">
 									<p class="card-p-class text-center">
 										Absolutely. Once I know what i’m working with, I can easily gauge how long I might need and quote a contractual price.
@@ -279,13 +292,13 @@
 							<div class="card-header card-h-class" id="heading5">
 								<div class="text-center q-div-cont">
 									<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-5" aria-controls="accordion-24504-item-5">Do you give discounts for EPs or Albums?</a><span class="float-lg-end float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-5"></span><span class="float-lg-end float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-5"></span>
-									<div id="accordion-24504-item-5" class="collapse" aria-labelledby="heading5" data-bs-parent="#accordion-24504">
-										<div class="card-body">
-											<p class="card-p-class text-center">
-												Yes, I can give a 15% discount on 5 songs or more, as long as they are sent all at once. Songs sent one by one or a few at a time thereafter, would not receive the same 15% discount.
-											</p>
-										</div>
-									</div>
+								</div>
+							</div>
+							<div id="accordion-24504-item-5" class="collapse card-a-class" aria-labelledby="heading5" data-bs-parent="#accordion-24504">
+								<div class="card-body">
+									<p class="card-p-class text-center">
+										Yes, I can give a 15% discount on 5 songs or more, as long as they are sent all at once. Songs sent one by one or a few at a time thereafter, would not receive the same 15% discount.
+									</p>
 								</div>
 							</div>
 						</div>
@@ -293,13 +306,13 @@
 							<div class="card-header card-h-class" id="heading6">
 								<div class="text-center q-div-cont">
 									<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-6" aria-controls="accordion-24504-item-6">Why do you charge an hourly rate as opposed to a flat rate?</a><span class="float-lg-end float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-6"></span><span class="float-lg-end float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-6"></span>
-									<div id="accordion-24504-item-6" class="collapse" aria-labelledby="heading6" data-bs-parent="#accordion-24504">
-										<div class="card-body">
-											<p class="card-p-class text-center">
-												Because everybody’s needs are different, every song’s track count is different, and I feel it’s fair and transparent for everybody. Major labels included.&nbsp;<br>Flat rates can still be accomodated, however, the amount may be quoted higher to allow additional room for unanticipated time spent or more mix revisions out of my control.
-											</p>
-										</div>
-									</div>
+								</div>
+							</div>
+							<div id="accordion-24504-item-6" class="collapse card-a-class" aria-labelledby="heading6" data-bs-parent="#accordion-24504">
+								<div class="card-body">
+									<p class="card-p-class text-center">
+										Because everybody’s needs are different, every song’s track count is different, and I feel it’s fair and transparent for everybody. Major labels included.&nbsp;<br>Flat rates can still be accomodated, however, the amount may be quoted higher to allow additional room for unanticipated time spent or more mix revisions out of my control.
+									</p>
 								</div>
 							</div>
 						</div>
@@ -307,13 +320,13 @@
 							<div class="card-header card-h-class" id="heading7">
 								<div class="text-center q-div-cont">
 									<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-7" aria-controls="accordion-24504-item-7">Is pitch correction and vocaligning included?</a><span class="float-lg-end float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-7"></span><span class="float-lg-end float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-7"></span>
-									<div id="accordion-24504-item-7" class="collapse" aria-labelledby="heading7" data-bs-parent="#accordion-24504">
-										<div class="card-body">
-											<p class="card-p-class text-center mx-auto d-block">
-												Yes. Since I charge an hourly rate, if your song requires additional editing, then this is also done at that rate. Any work outside of strictly mixing, would need your approval first.
-											</p>
-										</div>
-									</div>
+								</div>
+							</div>
+							<div id="accordion-24504-item-7" class="collapse card-a-class" aria-labelledby="heading7" data-bs-parent="#accordion-24504">
+								<div class="card-body">
+									<p class="card-p-class text-center mx-auto d-block">
+										Yes. Since I charge an hourly rate, if your song requires additional editing, then this is also done at that rate. Any work outside of strictly mixing, would need your approval first.
+									</p>
 								</div>
 							</div>
 						</div>
@@ -321,13 +334,13 @@
 							<div class="card-header card-h-class" id="heading8">
 								<div class="text-center q-div-cont">
 									<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-8" aria-controls="accordion-24504-item-8">How can I keep costs as low as possible?</a><span class="float-lg-end float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-8"></span><span class="float-lg-end float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-8"></span>
-									<div id="accordion-24504-item-8" class="collapse" aria-labelledby="heading8" data-bs-parent="#accordion-24504">
-										<div class="card-body">
-											<p class="card-p-class mx-auto d-block text-center">
-												- Make sure the vocal recordings are as dry as possible to minimize/eliminate the time is takes to de-reverb and clean up less-than-ideal recordings.&nbsp;<br>- Make sure the vocal recordings or instruments, are not clipping to minimize/eliminate the time is takes to de-clip.&nbsp;<br>- If you are adept at tuning, aligning & editing your own vocals, then this can save time being taken care of prior to mixing.<br>- Lastly, making sure files are organized and named can help speed up mix prep.
-											</p>
-										</div>
-									</div>
+								</div>
+							</div>
+							<div id="accordion-24504-item-8" class="collapse card-a-class" aria-labelledby="heading8" data-bs-parent="#accordion-24504">
+								<div class="card-body">
+									<p class="card-p-class mx-auto d-block text-center">
+										- Make sure the vocal recordings are as dry as possible to minimize/eliminate the time is takes to de-reverb and clean up less-than-ideal recordings.&nbsp;<br>- Make sure the vocal recordings or instruments, are not clipping to minimize/eliminate the time is takes to de-clip.&nbsp;<br>- If you are adept at tuning, aligning & editing your own vocals, then this can save time being taken care of prior to mixing.<br>- Lastly, making sure files are organized and named can help speed up mix prep.
+									</p>
 								</div>
 							</div>
 						</div>
@@ -335,13 +348,13 @@
 							<div class="card-header card-h-class" id="heading9">
 								<div class="text-center q-div-cont">
 									<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-9" aria-controls="accordion-24504-item-9">I only have the 2-track instrumental. Can you work with that?</a><span class="float-lg-end float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-9"></span><span class="float-lg-end float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-9"></span>
-									<div id="accordion-24504-item-9" class="collapse" aria-labelledby="heading9" data-bs-parent="#accordion-24504">
-										<div class="card-body">
-											<p class="card-p-class mx-auto d-block text-center">
-												A few years ago I’d say no, since it makes it harder to sit the vocals in a mix. <br>Now, thanks to AI & iZotope RX 10’s Music Rebalance, if the multi-tracks to the instumental are unavailable, I typically split the 2-track into groups of stems in order to process the drums, bass, music, vocal, & sfx separately.
-											</p>
-										</div>
-									</div>
+								</div>
+							</div>
+							<div id="accordion-24504-item-9" class="collapse card-a-class" aria-labelledby="heading9" data-bs-parent="#accordion-24504">
+								<div class="card-body">
+									<p class="card-p-class mx-auto d-block text-center">
+										A few years ago I’d say no, since it makes it harder to sit the vocals in a mix. <br>Now, thanks to AI software, if the multi-tracks to the instumental are unavailable, I typically split the 2-track into groups of stems in order to process the drums, bass, music, vocal, & sfx separately.
+									</p>
 								</div>
 							</div>
 						</div>
@@ -349,13 +362,13 @@
 							<div class="card-header card-h-class" id="heading10">
 								<div class="text-center q-div-cont">
 									<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-10" aria-controls="accordion-24504-item-10">What DAW do you use to mix?</a><span class="float-lg-end float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-10"></span><span class="float-lg-end float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-10"></span>
-									<div id="accordion-24504-item-10" class="collapse" aria-labelledby="heading10" data-bs-parent="#accordion-24504">
-										<div class="card-body">
-											<p class="card-p-class text-center mx-auto d-block">
-												Pro Tools
-											</p>
-										</div>
-									</div>
+								</div>
+							</div>
+							<div id="accordion-24504-item-10" class="collapse card-a-class" aria-labelledby="heading10" data-bs-parent="#accordion-24504">
+								<div class="card-body">
+									<p class="card-p-class text-center mx-auto d-block">
+										Pro Tools
+									</p>
 								</div>
 							</div>
 						</div>
@@ -363,13 +376,13 @@
 							<div class="card-header card-h-class" id="heading11">
 								<div class="text-center q-div-cont">
 									<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-11" aria-controls="accordion-24504-item-11">Do you mix in Atmos?</a><span class="float-lg-end float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-11"></span><span class="float-lg-end float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-24504-item-11"></span>
-									<div id="accordion-24504-item-11" class="collapse" aria-labelledby="heading11" data-bs-parent="#accordion-24504">
-										<div class="card-body">
-											<p class="card-p-class text-center mx-auto d-block text-lg-center">
-												Not at this time
-											</p>
-										</div>
-									</div>
+								</div>
+							</div>
+							<div id="accordion-24504-item-11" class="collapse card-a-class" aria-labelledby="heading11" data-bs-parent="#accordion-24504">
+								<div class="card-body">
+									<p class="card-p-class text-center mx-auto d-block text-lg-center">
+										Not at this time
+									</p>
 								</div>
 							</div>
 						</div>
@@ -382,270 +395,249 @@
 					</div>
 				</div>
 			</div>
-	</div>
-</div>
-<!-- bloc-mixing-faqa END -->
-
-<!-- bloc-mastering-faqs -->
-<div class="bloc faq-bloc-1-bg d-bloc none" id="bloc-mastering-faqs">
-	<div class="container bloc-no-padding-lg">
 		<div class="row mt-lg-5">
-			<div class="col text-start mt-md-5 mt-lg-5 mt-5">
-				<div class="text-center">
-					<span class="icon-md li_sound mb-lg-2 icon-6130"></span>
+				<div class="col text-start mt-md-5 mt-5 mt-lg-0">
+					<div class="text-center">
+						<span class="icon-md li_sound mb-lg-2 icon-1262"></span>
+					</div>
 				</div>
 			</div>
-		</div>
 		<div class="row mb-lg-5 mb-sm-4 mb-md-5">
-			<div class="col text-start">
-				<h4 class="mg-clear text-md-center text-sm-center text-center text-lg-center faq-p-text mb-lg-2 mb-sm-3 mb-5">
-					Mastering FAQs<br>
-				</h4>
+				<div class="col text-start">
+					<h4 class="mg-clear text-md-center text-sm-center text-center text-lg-center faq-p-text mb-lg-2 mb-sm-3 mb-5">
+						Mastering FAQs<br>
+					</h4>
+				</div>
 			</div>
-		</div>
 		<div class="row">
-			<div class="col-md-12 offset-md-0 col-sm-12 offset-sm-0 col-12 offset-0 col-lg-10 offset-lg-1">
-				<div id="accordion-31745">
-					<div class="card faq-card-class">
-						<div class="card-header" id="heading1">
-							<div class="text-center q-div-cont text-lg-center">
-								<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-31745-item-1" aria-controls="accordion-31745-item-1">How would you like to receive the files to master?</a><span class="float-md-end float-sm-end float-end feather-icon icon-plus plus-icon acc-link-icon icon-md float-lg-end" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-31745-item-1"></span><span class="float-md-end float-sm-end float-end feather-icon icon-minus d-none minus-icon acc-link-icon icon-md" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-31745-item-1"></span>
+				<div class="col-md-12 offset-md-0 col-sm-12 offset-sm-0 col-12 offset-0 col-lg-10 offset-lg-1">
+					<div id="accordion-31745">
+						<div class="card faq-card-class">
+							<div class="card-header card-h-class" id="heading1">
+								<div class="text-center q-div-cont text-lg-center">
+									<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-31745-item-1" aria-controls="accordion-31745-item-1">How would you like to receive the files to master?</a><span class="float-md-end float-sm-end float-end feather-icon icon-plus plus-icon acc-link-icon icon-md float-lg-end" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-31745-item-1"></span><span class="float-md-end float-sm-end float-end feather-icon icon-minus d-none minus-icon acc-link-icon icon-md" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-31745-item-1"></span>
+								</div>
+							</div>
+							<div id="accordion-31745-item-1" class="collapse card-a-class" data-bs-parent="#accordion-31745" aria-labelledby="heading1">
+								<div class="card-body">
+									<div class="div-for-sl">
+										<p class="card-p-class mx-auto d-block text-center">
+											Feel free and send the acap + instrumental, as well as the main wav file (with any mix bus processing) - minus any final limiters/clippers.<br>See this <a class="faq-links" href="../file-delivery-mastering/">File Delivery for Mastering</a> section for more details<br>
+										</p>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div id="accordion-31745-item-1" class="collapse" data-bs-parent="#accordion-31745" aria-labelledby="heading1">
-							<div class="card-body">
-								<div class="div-for-sl">
+						<div class="card faq-card-class">
+							<div class="card-header card-h-class" id="heading2">
+								<div class="text-center q-div-cont">
+									<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" aria-controls="accordion-31745-item-2" data-bs-target="#accordion-31745-item-2">How much do you charge for mastering?</a><span class="float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-31745-item-2"></span><span class="float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-31745-item-2"></span>
+								</div>
+							</div>
+							<div id="accordion-31745-item-2" class="collapse card-a-class" aria-labelledby="heading2" data-bs-parent="#accordion-31745">
+								<div class="card-body">
 									<p class="card-p-class mx-auto d-block text-center">
-										Feel free and send the acap + instrumental, as well as the main wav file (with any mix bus processing) - minus any final limiters/clippers.<br>See this <a class="faq-links" href="../file-delivery-mastering/">File Delivery for Mastering</a> section for more details<br>
+										I charge a flat rate of $160/song as of Jan 2024.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="card faq-card-class">
+							<div class="card-header card-h-class" id="heading4">
+								<div class="text-center q-div-cont">
+									<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" aria-controls="accordion-31745-item-4" data-bs-target="#accordion-31745-item-4">Do you give discounts for EPs or Albums?</a><span class="float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-31745-item-4"></span><span class="float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-31745-item-4"></span>
+								</div>
+							</div>
+							<div id="accordion-31745-item-4" class="collapse card-a-class" aria-labelledby="heading4" data-bs-parent="#accordion-31745">
+								<div class="card-body">
+									<p class="card-p-class mx-auto d-block text-center">
+										Yes, I can give a 15% discount on 5 songs or more, as long as they are sent all at once. Songs sent one by one or a few at a time thereafter, would not receive the same 15% discount.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="card faq-card-class">
+							<div class="card-header card-h-class" id="heading3">
+								<div class="text-center q-div-cont">
+									<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-31745-item-3" aria-controls="#accordion-31745-item-3">Do you provide DDP files for CD Duplication?</a><span class="float-lg-end float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-31745-item-3"></span><span class="float-lg-end float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-31745-item-3"></span>
+								</div>
+							</div>
+							<div id="accordion-31745-item-3" class="collapse card-a-class" aria-labelledby="heading3" data-bs-parent="#accordion-31745">
+								<div class="card-body">
+									<p class="card-p-class text-center mx-auto d-block">
+										Yes, I can provide DDP files for physical duplication.
 									</p>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="card faq-card-class">
-						<div class="card-header card-h-class" id="heading2">
-							<div class="text-center q-div-cont">
-								<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" aria-controls="accordion-31745-item-2" data-bs-target="#accordion-31745-item-2">How much do you charge for mastering?</a><span class="float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-31745-item-2"></span><span class="float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-31745-item-2"></span>
-							</div>
-						</div>
-						<div id="accordion-31745-item-2" class="collapse" aria-labelledby="heading2" data-bs-parent="#accordion-31745">
-							<div class="card-body">
-								<p class="card-p-class mx-auto d-block text-center">
-									I charge a flat rate of $160/song as of Jan 2024.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="card faq-card-class">
-						<div class="card-header card-h-class" id="heading4">
-							<div class="text-center q-div-cont">
-								<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" aria-controls="accordion-31745-item-4" data-bs-target="#accordion-31745-item-4">Do you give discounts for EPs or Albums?</a><span class="float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-31745-item-4"></span><span class="float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-31745-item-4"></span>
-							</div>
-						</div>
-						<div id="accordion-31745-item-4" class="collapse" aria-labelledby="heading4" data-bs-parent="#accordion-31745">
-							<div class="card-body">
-								<p class="card-p-class mx-auto d-block text-center">
-									Yes, I can give a 15% discount on 5 songs or more, as long as they are sent all at once. Songs sent one by one or a few at a time thereafter, would not receive the same 15% discount.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="card faq-card-class">
-						<div class="card-header card-h-class" id="heading3">
-							<div class="text-center q-div-cont">
-								<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-31745-item-3" aria-controls="#accordion-31745-item-3">Do you provide DDP files for CD Duplication?</a><span class="float-lg-end float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-31745-item-3"></span><span class="float-lg-end float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-31745-item-3"></span>
-							</div>
-						</div>
-						<div id="accordion-31745-item-3" class="collapse" aria-labelledby="heading3" data-bs-parent="#accordion-31745">
-							<div class="card-body">
-								<p class="card-p-class text-center mx-auto d-block">
-									Yes, I can provide DDP files for physical duplication.
-								</p>
-							</div>
-						</div>
-					</div>
 				</div>
 			</div>
-		</div>
 		<div class="row">
-			<div class="text-start col-lg-10 offset-lg-1 col-md-10 offset-md-1 mt-lg-5">
-				<div class="divider-h divider-padding-2 mb-lg-5 mt-lg-5 mt-md-5 mb-md-5 object-hidden">
+				<div class="text-start col-lg-10 offset-lg-1 col-md-10 offset-md-1 mt-lg-5">
+					<div class="divider-h divider-padding-2 mb-lg-5 mt-lg-5 mt-md-5 mb-md-5 object-hidden">
+					</div>
 				</div>
 			</div>
-		</div>
+		<div class="row">
+				<div class="col text-start mt-5 mt-lg-0 mt-md-5">
+					<div class="text-center">
+						<span class="icon-md fa fa-guitar mb-lg-2 mb-md-2 mb-sm-2 mb-2 icon-1262"></span>
+					</div>
+				</div>
+			</div>
+		<div class="row mb-lg-5 mb-sm-4 mb-md-5">
+				<div class="col text-start">
+					<h4 class="mg-clear text-md-center text-sm-center text-center text-lg-center faq-p-text mb-lg-2 mb-sm-3 mb-5">
+						Production FAQs<br>
+					</h4>
+				</div>
+			</div>
+		<div class="row mb-lg-0 pb-lg-0 pb-md-0 mb-md-0 mb-sm-0 pb-sm-0 mb-0 pb-0">
+				<div class="text-start col-lg-10 offset-lg-1">
+					<div id="accordion-15140">
+						<div class="card faq-card-class">
+							<div class="card-header card-h-class" id="heading1">
+								<div class="text-center q-div-cont text-lg-center">
+									<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-1" aria-controls="accordion-15140-item-1">How can I get a track produced by you?</a><span class="float-md-end float-sm-end float-end feather-icon icon-plus plus-icon acc-link-icon icon-md float-lg-end" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-1"></span><span class="float-md-end float-sm-end float-end feather-icon icon-minus d-none minus-icon acc-link-icon icon-md" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-1"></span>
+								</div>
+							</div>
+							<div id="accordion-15140-item-1" class="collapse card-a-class" data-bs-parent="#accordion-15140" aria-labelledby="heading1">
+								<div class="card-body">
+									<div class="div-for-sl">
+										<p class="card-p-class mx-auto d-block text-center">
+											If you’re in LA, let’s connect!<br>If you’re elsewhere and want to collab, I do zoom sessions regularly.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card faq-card-class">
+							<div class="card-header card-h-class" id="heading2">
+								<div class="text-center q-div-cont">
+									<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" aria-controls="accordion-15140-item-2" data-bs-target="#accordion-15140-item-2">What type of music do you produce?</a><span class="float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-2"></span><span class="float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-2"></span>
+								</div>
+							</div>
+							<div id="accordion-15140-item-2" class="collapse card-a-class" aria-labelledby="heading2" data-bs-parent="#accordion-15140">
+								<div class="card-body">
+									<p class="card-p-class text-center mx-auto d-block">
+										Currently focusing on Pop, R&B & Rap.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="card faq-card-class">
+							<div class="card-header card-h-class" id="heading3">
+								<div class="text-center q-div-cont">
+									<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-3" aria-controls="#accordion-15140-item-3">How long have you been producing?</a><span class="float-lg-end float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-3"></span><span class="float-lg-end float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-3"></span>
+								</div>
+							</div>
+							<div id="accordion-15140-item-3" class="collapse card-a-class" aria-labelledby="heading3" data-bs-parent="#accordion-15140">
+								<div class="card-body">
+									<p class="card-p-class mx-auto d-block text-center">
+										Since 2007!
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="card faq-card-class">
+							<div class="card-header card-h-class" id="heading4">
+								<div class="text-center q-div-cont">
+									<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-4" aria-controls="accordion-15140-item-4">Do you play any instruments?</a><span class="float-lg-end float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-4"></span><span class="float-lg-end float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-4"></span>
+								</div>
+							</div>
+							<div id="accordion-15140-item-4" class="collapse card-a-class" aria-labelledby="heading4" data-bs-parent="#accordion-15140">
+								<div class="card-body">
+									<p class="card-p-class text-center mx-auto d-block">
+										Although I was never classically trained, I’m self-taught in playing guitar & piano.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="card faq-card-class">
+							<div class="card-header card-h-class" id="heading5">
+								<div class="text-center q-div-cont">
+									<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-5" aria-controls="accordion-15140-item-5">What DAW do you use to produce?</a><span class="float-lg-end float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-5"></span><span class="float-lg-end float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-5"></span>
+								</div>
+							</div>
+							<div id="accordion-15140-item-5" class="collapse card-a-class" aria-labelledby="heading5" data-bs-parent="#accordion-15140">
+								<div class="card-body">
+									<p class="card-p-class mx-auto d-block text-center">
+										I use Ableton Live for production. <br>I Started on FL Studio 7 in 2007, switched to Logic Pro in 2015, and then Ableton in 2017
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="card faq-card-class">
+							<div class="card-header card-h-class" id="heading12">
+								<div class="text-center q-div-cont">
+									<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-12" aria-controls="accordion-15140-item-12">Who are some of your influences?</a><span class="float-lg-end float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-11"></span><span class="float-lg-end float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-11"></span>
+								</div>
+							</div>
+							<div id="accordion-15140-item-12" class="collapse card-a-class" aria-labelledby="heading12" data-bs-parent="#accordion-15140">
+								<div class="card-body">
+									<p class="card-p-class text-center mx-auto d-block">
+										I grew up listening to a lot of Three 6 Mafia, 2 Pac, Bone Thugs, Houston Rap, etc...those type of songs. Then once I started actually making music myself, I started really admiring the intracacies of modern pop music produced by the likes of Dr. Luke, Benny Blanco & Max Martin to name a few. These days, I’m really impressed with some up and coming producers/artists like, Ramzoid, and even some of my own artist clients who also self-produce & vocal produce. I always have a lot of respect and admiration for those who can jump through the noise with their craft.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<div class="row mt-lg-5">
+				<div class="col text-start mt-5 mt-lg-0 mt-md-5">
+					<div class="text-center">
+						<span class="icon-md mb-lg-2 mb-md-2 mb-sm-2 mb-2 far fa-file-archive icon-1262"></span>
+					</div>
+				</div>
+			</div>
+		<div class="row mb-lg-5 mb-sm-4 mb-md-5">
+				<div class="col text-start">
+					<h4 class="mg-clear text-md-center text-sm-center text-center text-lg-center faq-p-text mb-lg-2 mb-sm-3 mb-5">
+						File Delivery FAQs<br>
+					</h4>
+				</div>
+			</div>
+		<div class="row mb-lg-5 mb-5 mb-sm-5 mb-md-5 pb-3 pb-lg-3">
+				<div class="text-start col-lg-10 offset-lg-1">
+					<div id="accordion-39663">
+						<div class="card faq-card-class">
+							<div class="card-header card-h-class" id="heading1">
+								<div class="text-center q-div-cont text-lg-center">
+									<span class="float-md-end float-sm-end float-end feather-icon icon-plus plus-icon acc-link-icon icon-md float-lg-end" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-39663-item-1"></span><span class="float-md-end float-sm-end float-end feather-icon icon-minus d-none minus-icon acc-link-icon icon-md" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-39663-item-1"></span><a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-39663-item-1" aria-controls="accordion-39663-item-1">What’s the best way to send files to you?</a>
+								</div>
+							</div>
+							<div id="accordion-39663-item-1" class="collapse card-a-class" data-bs-parent="#accordion-39663" aria-labelledby="heading1">
+								<div class="card-body">
+									<p class="card-p-class mx-auto d-block text-center">
+										<br>Please see:
+									</p>
+									<div class="div-for-sl">
+										<p class="card-p-class mx-auto d-block text-center">
+											<a class="faq-links" href="../file-delivery-mixing/">File Delivery for Mixing</a><br>
+										</p>
+										<p class="card-p-class mx-auto d-block text-center">
+											<a class="faq-links" href="../file-delivery-mastering/">File Delivery for Mastering</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 	</div>
 </div>
 <!-- bloc-mastering-faqs END -->
 
-<!-- bloc-production-faqs -->
-<div class="bloc faq-bloc-1-bg d-bloc none" id="bloc-production-faqs">
-	<div class="container bloc-no-padding-lg">
-		<div class="row mt-lg-5">
-			<div class="col text-start mt-5 mt-lg-0 mt-md-5">
-				<div class="text-center">
-					<span class="icon-md fa fa-guitar mb-lg-2 mb-md-2 mb-sm-2 mb-2 icon-6130"></span>
-				</div>
-			</div>
-		</div>
-		<div class="row mb-lg-5 mb-sm-4 mb-md-5">
-			<div class="col text-start">
-				<h4 class="mg-clear text-md-center text-sm-center text-center text-lg-center faq-p-text mb-lg-2 mb-sm-3 mb-5">
-					Production FAQs<br>
-				</h4>
-			</div>
-		</div>
-		<div class="row mb-lg-0 pb-lg-0 pb-md-0 mb-md-0 mb-sm-0 pb-sm-0 mb-0 pb-0">
-			<div class="text-start col-lg-10 offset-lg-1">
-				<div id="accordion-15140">
-					<div class="card faq-card-class">
-						<div class="card-header" id="heading1">
-							<div class="text-center q-div-cont text-lg-center">
-								<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-1" aria-controls="accordion-15140-item-1">How can I get a track produced by you?</a><span class="float-md-end float-sm-end float-end feather-icon icon-plus plus-icon acc-link-icon icon-md float-lg-end" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-1"></span><span class="float-md-end float-sm-end float-end feather-icon icon-minus d-none minus-icon acc-link-icon icon-md" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-1"></span>
-							</div>
-						</div>
-						<div id="accordion-15140-item-1" class="collapse" data-bs-parent="#accordion-15140" aria-labelledby="heading1">
-							<div class="card-body">
-								<div class="div-for-sl">
-									<p class="card-p-class mx-auto d-block text-center">
-										If you’re in LA, let’s connect!<br>If you’re elsewhere and want to collab, I do zoom sessions regularly.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card faq-card-class">
-						<div class="card-header card-h-class" id="heading2">
-							<div class="text-center q-div-cont">
-								<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" aria-controls="accordion-15140-item-2" data-bs-target="#accordion-15140-item-2">What type of music do you produce?</a><span class="float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-2"></span><span class="float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-2"></span>
-							</div>
-						</div>
-						<div id="accordion-15140-item-2" class="collapse" aria-labelledby="heading2" data-bs-parent="#accordion-15140">
-							<div class="card-body">
-								<p class="card-p-class text-center mx-auto d-block">
-									Currently focusing on Pop, R&B & Rap.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="card faq-card-class">
-						<div class="card-header card-h-class" id="heading3">
-							<div class="text-center q-div-cont">
-								<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-3" aria-controls="#accordion-15140-item-3">How long have you been producing?</a><span class="float-lg-end float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-3"></span><span class="float-lg-end float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-3"></span>
-							</div>
-						</div>
-						<div id="accordion-15140-item-3" class="collapse" aria-labelledby="heading3" data-bs-parent="#accordion-15140">
-							<div class="card-body">
-								<p class="card-p-class mx-auto d-block text-center">
-									Since 2007!
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="card faq-card-class">
-						<div class="card-header card-h-class" id="heading4">
-							<div class="text-center q-div-cont">
-								<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-4" aria-controls="accordion-15140-item-4">Do you play any instruments?</a><span class="float-lg-end float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-4"></span><span class="float-lg-end float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-4"></span>
-							</div>
-						</div>
-						<div id="accordion-15140-item-4" class="collapse" aria-labelledby="heading4" data-bs-parent="#accordion-15140">
-							<div class="card-body">
-								<p class="card-p-class text-center mx-auto d-block">
-									Although I was never classically trained, I’m self-taught in playing guitar & piano.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="card faq-card-class">
-						<div class="card-header card-h-class" id="heading5">
-							<div class="text-center q-div-cont">
-								<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-5" aria-controls="accordion-15140-item-5">What DAW do you use to produce?</a><span class="float-lg-end float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-5"></span><span class="float-lg-end float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-5"></span>
-								<div id="accordion-15140-item-5" class="collapse" aria-labelledby="heading5" data-bs-parent="#accordion-15140">
-									<div class="card-body">
-										<p class="card-p-class mx-auto d-block text-center">
-											I use Ableton Live for production. <br>I Started on FL Studio 7 in 2007, switched to Logic Pro in 2015, and then Ableton in 2017
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card faq-card-class">
-						<div class="card-header card-h-class" id="heading12">
-							<div class="text-center q-div-cont">
-								<a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-12" aria-controls="accordion-15140-item-12">Who are some of your influences?</a><span class="float-lg-end float-md-end float-sm-end float-end feather-icon icon-plus icon-md plus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-11"></span><span class="float-lg-end float-md-end float-sm-end float-end icon-md feather-icon icon-minus d-none minus-icon acc-link-icon" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-15140-item-11"></span>
-								<div id="accordion-15140-item-12" class="collapse" aria-labelledby="heading12" data-bs-parent="#accordion-15140">
-									<div class="card-body">
-										<p class="card-p-class text-center mx-auto d-block">
-											I grew up listening to a lot of Three 6 Mafia, 2 Pac, Bone Thugs, Houston Rap, etc...those type of songs. Then once I started actually making music myself, I started really admiring the intracacies of modern pop music produced by the likes of Dr. Luke, Benny Blanco & Max Martin to name a few. These days, I’m really impressed with some up and coming producers/artists like, Ramzoid, and even some of my own artist clients who also self-produce & vocal produce. I always have a lot of respect and admiration for those who can jump through the noise with their craft.
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-production-faqs END -->
-
-<!-- bloc-file-delivery-faqs -->
-<div class="bloc faq-bloc-1-bg d-bloc none" id="bloc-file-delivery-faqs">
-	<div class="container bloc-no-padding-lg">
-		<div class="row mt-lg-5">
-			<div class="col text-start mt-5 mt-lg-0 mt-md-5">
-				<div class="text-center">
-					<span class="icon-md mb-lg-2 mb-md-2 mb-sm-2 mb-2 far fa-file-archive icon-6130"></span>
-				</div>
-			</div>
-		</div>
-		<div class="row mb-lg-5 mb-sm-4 mb-md-5">
-			<div class="col text-start">
-				<h4 class="mg-clear text-md-center text-sm-center text-center text-lg-center faq-p-text mb-lg-2 mb-sm-3 mb-5">
-					File Delivery FAQs<br>
-				</h4>
-			</div>
-		</div>
-		<div class="row mb-lg-0 pb-lg-0 pb-md-0 mb-md-0 mb-sm-0 pb-sm-0 mb-0 pb-0">
-			<div class="text-start col-lg-10 offset-lg-1">
-				<div id="accordion-39663">
-					<div class="card faq-card-class">
-						<div class="card-header" id="heading1">
-							<div class="text-center q-div-cont text-lg-center">
-								<span class="float-md-end float-sm-end float-end feather-icon icon-plus plus-icon acc-link-icon icon-md float-lg-end" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-39663-item-1"></span><span class="float-md-end float-sm-end float-end feather-icon icon-minus d-none minus-icon acc-link-icon icon-md" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-39663-item-1"></span><a href="#" class="a-btn acc-link text-md-center text-sm-center text-center text-lg-center stretched-link" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#accordion-39663-item-1" aria-controls="accordion-39663-item-1">What’s the best way to send files to you?</a>
-							</div>
-						</div>
-						<div id="accordion-39663-item-1" class="collapse" data-bs-parent="#accordion-39663" aria-labelledby="heading1">
-							<div class="card-body">
-								<p class="card-p-class mx-auto d-block text-center">
-									<br>Please see:
-								</p>
-								<div class="div-for-sl">
-									<p class="card-p-class mx-auto d-block text-center">
-										<a class="faq-links" href="../file-delivery-mixing/">File Delivery for Mixing</a><br>
-									</p>
-									<p class="card-p-class mx-auto d-block text-center">
-										<a class="faq-links" href="../file-delivery-mastering/">File Delivery for Mastering</a>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-file-delivery-faqs END -->
-
 <!-- bloc-30 -->
 <div class="bloc bgc-1046 d-bloc" id="bloc-30">
-	<div class="container bloc-md-lg bloc-md-md bloc-md-sm bloc-md">
-		<div class="row">
+	<div class="container bloc-md">
+		<div class="row pt-3 pb-3">
 			<div class="col text-start">
-				<h4 class="faq-foot-style mb-0">
-					To get a personalized quote,&nbsp;<a class="click-here-style" href="../contact/">fill out this form</a>
+				<h4 class="faq-foot-style">
+					To get a personalized quote, please&nbsp;<a class="click-here-style" href="../contact/">fill out this form</a>
 				</h4>
 			</div>
 		</div>
@@ -665,6 +657,9 @@
 				</h4>
 				<h4 class="mb-4 text-lg-center h4-style text-center mx-auto d-block">
 					<a class="pre-footer-text" href="../about/">About</a>
+				</h4>
+				<h4 class="mb-4 text-lg-center h4-style text-center mx-auto d-block">
+					<a class="pre-footer-text" href="https://shop.ryansummer.com">Store</a>
 				</h4>
 				<h4 class="mb-4 text-lg-center h4-style text-center mx-auto d-block">
 					<a class="pre-footer-text" href="../services/">Services</a>
@@ -693,7 +688,7 @@
 			<div class="col-12">
 				<nav class="navbar row flex-column hover-open-submenu navbar-dark navbar-expand-sm" role="navigation">
 					<div class="container-fluid flex-column">
-						<a class="navbar-brand img-protected mx-auto ltc-6873 nav-footer-logo" href="../"><picture><source type="image/webp" srcset="../img/lazyload-ph.png" data-srcset="../img/RYAN%20SUMMER%202024.webp"><img src="../img/lazyload-ph.png" data-src="../img/RYAN%20SUMMER%202024.png" alt="logo" class="lazyload" width="140" height="15"></picture></a>
+						<a class="navbar-brand img-protected mx-auto ltc-6873 nav-footer-logo animated pulse-hvr" href="../"><picture><source type="image/webp" srcset="../img/lazyload-ph.png" data-srcset="../img/RYAN%20SUMMER%202024.webp"><img src="../img/lazyload-ph.png" data-src="../img/RYAN%20SUMMER%202024.png" alt="logo" class="lazyload" width="140" height="15"></picture></a>
 						<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 bot-nav-ham" aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse" data-bs-target=".navbar-5357">
 							<span class="navbar-toggler-icon"><svg height="32" viewBox="0 0 32 32" width="32"><path data-custom-classes=" menu-icon-bloc-6-stroke menu-icon-0-stroke menu-icon-0-bloc-6-stroke" class="svg-menu-icon menu-icon-bloc-6-stroke menu-icon-0-stroke menu-icon-0-bloc-6-stroke" d="m2 9h28m-28 7h28m-28 7h28" auto-style-class="menu-icon-0-bloc-6-stroke"></path></svg></span>
 						</button>
@@ -710,6 +705,9 @@
 									</li>
 									<li class="nav-item">
 										<a href="." class="nav-link a-btn menu-item-style-2 animated pulse-hvr">FAQs</a>
+									</li>
+									<li class="nav-item">
+										<a href="https://shop.ryansummer.com" class="nav-link a-btn menu-item-style-2 animated pulse-hvr">Store</a>
 									</li>
 									<li class="nav-item">
 										<a href="../about/" class="nav-link a-btn menu-item-style-2 animated pulse-hvr">About</a>
@@ -743,10 +741,10 @@
 
 
 <!-- Additional JS -->
-<script src="../js/bootstrap.bundle.min.js?6385"></script>
-<script src="../js/blocs.min.js?1794"></script>
+<script src="../js/bootstrap.bundle.min.js?3637"></script>
+<script src="../js/blocs.min.js?9261"></script>
 <script src="../js/lazysizes.min.js" defer></script>
-<script src="../js/universal-parallax.min.js?6765"></script><!-- Additional JS END -->
+<script src="../js/universal-parallax.min.js?5888"></script><!-- Additional JS END -->
 
 
 </body>
