@@ -1472,7 +1472,7 @@ h1{
 	border-style:solid;
 	border-radius:25px 25px 25px 25px;
 	border-width:3px 3px 3px 3px;
-	box-shadow:0.00px -0.00px 0px #FFFFFF;
+	box-shadow:0.00px -0.00px 5px #FFFFFF;
 }
 .abt-img-border{
 	border-radius:500px 500px 500px 500px;
