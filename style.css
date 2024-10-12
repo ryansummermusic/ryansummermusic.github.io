@@ -43,15 +43,6 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 }
 
 @font-face {
-	font-family:'Lato-LightItalic';
-	src: url('./fonts/Lato-LightItalic/Lato-LightItalic.ttf');
-	src: url('./fonts/Lato-LightItalic/Lato-LightItalic.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-	font-display:swap;
-}
-
-@font-face {
 	font-family:'Montserrat-Light';
 	src: url('./fonts/Montserrat-Light/Montserrat-Light.ttf');
 	src: url('./fonts/Montserrat-Light/Montserrat-Light.ttf') format('truetype');
@@ -73,6 +64,15 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 	font-family:'Montserrat-Regular';
 	src: url('./fonts/Montserrat-Regular/Montserrat-Regular.ttf');
 	src: url('./fonts/Montserrat-Regular/Montserrat-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display:swap;
+}
+
+@font-face {
+	font-family:'Montserrat-Medium';
+	src: url('./fonts/Montserrat-Medium/Montserrat-Medium.ttf');
+	src: url('./fonts/Montserrat-Medium/Montserrat-Medium.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 	font-display:swap;
@@ -170,6 +170,19 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 .full-width-bloc .carousel img{
 	width:100%;
 	height:auto;
+}
+
+
+/* Background Styles */
+
+.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
+	-webkit-background-size: auto!important;
+	-moz-background-size: auto!important;
+	-o-background-size: auto!important;
+	background-size: auto!important;
+}
+.bg-repeat{
+	background-repeat:repeat!important;
 }
 
 
@@ -586,6 +599,10 @@ button{
 	padding: 16px 40px;
 	font-size: 28px;
 }
+.dropdown a .caret{
+	margin:0 0 0 5px}.btn-dropdown .dropdown-menu .dropdown{
+	padding: 3px 20px;
+}
 
 /* = Icons
 -------------------------------------------------------------- */
@@ -739,19 +756,6 @@ h1{
 .bloc{
 	max-width:2500px;
 }
-.h1-style{
-	font-size:50px;
-	line-height:px;
-	font-family:"Lato-Bold";
-	font-weight:bold;
-	width:100%;
-	color:#FFFFFF!important;
-	background-color:transparent;
-	text-transform:none;
-	text-decoration:none;
-	border-color:transparent!important;
-	text-align:center;
-}
 .bloc-padding-bottom{
 	width:100%;
 }
@@ -760,17 +764,15 @@ h1{
 	justify-content:center;
 	padding-top:50px;
 	padding-bottom:50px;
-	color:rgba(255,255,255,0.75)!important;
+	color:#FFFFFF!important;
 	text-align:center;
-	font-family:"Lato-LightItalic";
+	font-family:"Montserrat-Light";
 	font-weight:bold;
 	align-content:center;
-	width:60%;
 	display:flex;
 	font-size:36px;
-	text-transform:none;
+	text-transform:uppercase;
 	letter-spacing:6px;
-	text-shadow:0.00px -0.00px 5px #000000;
 }
 .h1-placeholder-style{
 	font-size:50px;
@@ -869,7 +871,7 @@ h1{
 .menu-item-style{
 	font-family:"Lato-Regular";
 	text-transform:none;
-	color:rgba(255,255,255,0.75)!important;
+	color:#FFFFFF!important;
 	font-weight:300;
 	text-decoration:none;
 	filter:invert(0%);
@@ -886,23 +888,23 @@ h1{
 	color:transparent!important;
 }
 .faq-bloc-1-bg{
-	background-color:#000000;
+	background-color:#1D2023;
 	background-size:length;
 }
 .faq-h1-style{
-	color:rgba(255,255,255,0.75)!important;
+	color:#FFFFFF!important;
 	font-size:35px;
-	font-family:"Lato-Light";
+	font-family:"Montserrat-Light";
 	font-weight:bold;
 }
 .faq-h2-style{
-	font-size:32px;
-	color:rgba(255,255,255,0.75)!important;
-	font-family:"Lato-Light";
+	font-size:30px;
+	color:#FFFFFF!important;
+	font-family:"Montserrat-Light";
 }
 .faq-p-text{
 	font-size:24px;
-	color:rgba(255,255,255,0.75)!important;
+	color:#FFFFFF!important;
 	font-family:"Lato-Light";
 }
 .text-span-color{
@@ -916,9 +918,9 @@ h1{
 }
 .fd-h1-style{
 	font-size:40px;
-	color:rgba(255,255,255,0.75)!important;
+	color:#FFFFFF!important;
 	background-color:transparent;
-	font-family:"Lato-Light";
+	font-family:"Montserrat-Light";
 	font-weight:bold;
 }
 .faq-topics{
@@ -940,7 +942,7 @@ h1{
 	background-color:rgba(0,0,0,0.76);
 }
 .fdmas-bloc-1-bg{
-	background-color:rgba(0,0,0,0.84);
+	background-color:var(--swatch-var-2198);
 }
 .mix-ser-h1-style{
 	font-family:"Lato-Regular";
@@ -981,8 +983,7 @@ h1{
 	background-size:auto auto;
 }
 .faq-how-to-bloc{
-	background-color:rgba(12,23,50,0.84);
-	background:linear-gradient(0deg, #000000  0%, rgba(0,0,0,0.76) 100%);
+	background-color:var(--swatch-var-2198);
 }
 .container-div-bloc-2-margin-bottom{
 	padding:50px 50px 50px 50px;
@@ -1065,11 +1066,6 @@ h1{
 	margin-left:auto;
 	margin-right:auto;
 }
-.divider-margin-left{
-	margin-left:auto;
-	margin-right:auto;
-	background-color:rgba(255,255,255,0.50);
-}
 .h1-discography-style{
 	font-size:50px;
 	color:#FFFFFF!important;
@@ -1148,11 +1144,11 @@ h1{
 }
 .listen-style{
 	font-size:32px;
-	font-family:"Lato-LightItalic";
+	font-family:"Montserrat-Light";
 	font-weight:bold;
-	color:rgba(255,255,255,0.75)!important;
+	color:#FFFFFF!important;
 	text-align:center;
-	text-transform:none;
+	text-transform:uppercase;
 	text-decoration:none;
 	letter-spacing:3px;
 	text-shadow:0.00px -0.00px 0px #FFFFFF;
@@ -1167,7 +1163,7 @@ h1{
 	color:var(--swatch-var-7543)!important;
 	text-align:center;
 	text-decoration:none;
-	font-family:"Lato-Light";
+	font-family:"Montserrat-Light";
 	font-weight:500;
 	border-style:solid;
 	border-radius:100px 100px 100px 100px;
@@ -1183,7 +1179,7 @@ h1{
 	text-decoration:none;
 	font-size:20px;
 	background-color:#FFFFFF;
-	font-family:"Lato-Regular";
+	font-family:"Montserrat-Light";
 	font-weight:500;
 }
 .bloc-divider-b-fill{
@@ -1193,6 +1189,9 @@ h1{
 }
 .bloc-divider-t-fill{
 	fill:var(--swatch-var-1869);
+}
+.discog-clip-1{
+	background-color:transparent;
 }
 .contact-labels{
 	color:#FFFFFF!important;
@@ -1219,16 +1218,12 @@ h1{
 .nav-footer-logo{
 	filter:invert(100%);
 }
-.img-style{
-	width:50px;
-	height:50px;
-}
 .img-113-style{
 	width:50px;
 	height:50px;
 }
 .menu-item-style:hover{
-	color:#FFFFFF!important;
+	color:rgba(255,255,255,0.75)!important;
 }
 .view-more-links-end{
 	font-size:20px;
@@ -1281,16 +1276,16 @@ h1{
 	font-size:22px;
 	padding-top:25px;
 	padding-bottom:25px;
-	color:#2896FF!important;
+	color:#0096FF!important;
 	text-align:center;
 	text-decoration:none;
 	font-family:"Lato-Light";
 	z-index:3;
 }
 .faq-links:hover{
-	color:#2896FF!important;
+	color:rgba(0,150,255,0.75)!important;
 	text-align:center;
-	text-decoration:underline!important;
+	text-decoration:none;
 	font-size:22px;
 	font-family:"Lato-Light";
 }
@@ -1298,20 +1293,25 @@ h1{
 	font-size:16px;
 }
 .h4-style{
-	font-size:38px;
-	color:rgba(255,255,255,0.75)!important;
+	font-size:30px;
+	color:#FFFFFF!important;
 	font-family:"Lato-Light";
 }
+.h4-style:hover{
+	color:var(--swatch-var-1262)!important;
+}
 .click-here-style{
-	text-decoration:underline!important;
-	color:rgba(255,255,255,0.75)!important;
+	text-decoration:none;
+	color:var(--swatch-var-1308)!important;
 	text-transform:none;
-	font-size:32px;
+	font-size:30px;
 	font-family:"Lato-Light";
 }
 .click-here-style:hover{
-	color:#FFFFFF!important;
-	text-decoration:underline!important;
+	text-decoration:none;
+	font-family:"Lato-Light";
+	font-size:30px;
+	color:rgba(0,150,255,0.75)!important;
 }
 .flex-text-box{
 	align-items:center;
@@ -1319,7 +1319,7 @@ h1{
 	display:flex;
 }
 .faq-card-class{
-	background-color:#000000;
+	background-color:transparent;
 	box-shadow:0.00px -0.00px 0px #FFFFFF;
 	border-color:rgba(255,255,255,0.75)!important;
 	border-style:solid;
@@ -1330,8 +1330,8 @@ h1{
 }
 .h3-style{
 	font-size:16px;
-	font-family:"Montserrat-Light";
-	color:rgba(255,255,255,0.75)!important;
+	font-family:"Montserrat-Medium";
+	color:#FFFFFF!important;
 	text-decoration:none;
 	text-transform:none;
 }
@@ -1350,18 +1350,18 @@ h1{
 }
 .h3-bloc-32-style{
 	font-size:24px;
-	color:rgba(255,255,255,0.75)!important;
+	color:#FFFFFF!important;
 	font-family:"Lato-Light";
 }
 .q-text{
 	color:rgba(0,255,0,0.75)!important;
 }
 .acc-link{
-	color:rgba(0,160,255,0.75)!important;
 	font-size:22px;
 	text-transform:none;
 	text-decoration:none;
 	font-family:"Lato-Regular";
+	color:#0096FF!important;
 }
 .plus-icon{
 	background-color:transparent;
@@ -1371,7 +1371,7 @@ h1{
 	color:#FFFFFF!important;
 }
 .card-p-class{
-	color:rgba(255,255,255,0.75)!important;
+	color:#FFFFFF!important;
 	font-size:22px;
 	font-family:"Lato-Light";
 }
@@ -1385,17 +1385,18 @@ h1{
 .serv-card-col{
 	align-items:center;
 	justify-content:center;
+	background-color:transparent;
 }
 .serv-h1-style{
-	font-family:"Lato-Light";
-	font-size:50px;
+	font-family:"Montserrat-Light";
+	font-size:40px;
 	text-transform:none;
-	color:rgba(255,255,255,0.75)!important;
+	color:#FFFFFF!important;
 	letter-spacing:2px;
 	font-weight:bold;
 }
 .serv-foot-style{
-	color:rgba(255,255,255,0.75)!important;
+	color:#FFFFFF!important;
 	text-align:center;
 	font-family:"Lato-Light";
 	font-size:36px;
@@ -1403,8 +1404,8 @@ h1{
 .faq-foot-style{
 	text-transform:none;
 	text-align:center;
-	color:rgba(255,255,255,0.75)!important;
-	font-size:32px;
+	color:#FFFFFF!important;
+	font-size:30px;
 	font-family:"Lato-Light";
 }
 .fd-button-list-style{
@@ -1448,12 +1449,12 @@ h1{
 .about-text-style{
 	font-size:24px;
 	font-family:"Lato-Light";
-	color:rgba(255,255,255,0.75)!important;
+	color:#FFFFFF!important;
 	font-weight:normal;
 	background-color:transparent;
 }
 .h1-about-style{
-	font-size:50px;
+	font-size:45px;
 	font-family:"Montserrat-Light";
 	text-transform:none;
 	color:rgba(255,255,255,0.75)!important;
@@ -1469,12 +1470,12 @@ h1{
 }
 .serv-h2-style{
 	font-family:"Montserrat-Regular";
-	color:rgba(255,255,255,0.75)!important;
+	color:#FFFFFF!important;
 	text-transform:none;
 	font-size:28px;
 }
 .serv-h3-style{
-	color:rgba(255,255,255,0.75)!important;
+	color:#FFFFFF!important;
 	font-family:"Lato-Regular";
 	text-decoration:none;
 	text-transform:capitalize;
@@ -1483,7 +1484,7 @@ h1{
 	border-color:#0073E1!important;
 	border-style:solid;
 	border-radius:25px 25px 25px 25px;
-	border-width:1px 1px 1px 1px;
+	border-width:3px 3px 3px 3px;
 	box-shadow:0.00px -0.00px 0px #FFFFFF;
 }
 .abt-img-border{
@@ -1520,6 +1521,7 @@ h1{
 .h3-bloc-8-style{
 	font-family:"Lato-Light";
 	font-size:32px;
+	color:#FFFFFF!important;
 }
 .fd-image{
 	border-style:solid;
@@ -1532,23 +1534,23 @@ h1{
 	margin-right:auto;
 }
 .pre-footer-text{
-	text-decoration:underline!important;
-	color:rgba(255,255,255,0.75)!important;
+	text-decoration:none;
+	color:var(--swatch-var-1262)!important;
 	text-transform:none;
-	font-size:32px;
-	font-family:"Lato-Light";
+	font-size:30px;
+	font-family:"Montserrat-Light";
 }
 .pre-footer-text:hover{
-	color:#FFFFFF!important;
-	text-decoration:underline!important;
-	font-family:"Lato-Light";
+	color:rgba(255,255,255,0.75)!important;
+	text-decoration:none;
+	font-family:"Montserrat-Light";
 }
 .serv-card-class{
-	background-color:#000000;
-	box-shadow:0.00px -0.00px 0px #FFFFFF;
+	background-color:var(--swatch-var-1046);
+	box-shadow:inset 0.00px -0.00px 5px #FFFFFF;
 	border-color:#0073E1!important;
 	border-radius:25px 25px 25px 25px;
-	border-width:1px 1px 1px 1px;
+	border-width:3px 3px 3px 3px;
 	border-style:solid;
 }
 .fd-for-mix-boxes{
@@ -1570,8 +1572,7 @@ h1{
 	width:100%;
 }
 .serv-head-bloc{
-	background-color:rgba(255,255,255,0.50);
-	background:linear-gradient(0deg, #000000 0%, rgba(0,0,0,0.75) 100%);
+	background-size:cover;
 }
 .social-ham-links-2{
 	color:rgba(255,255,255,0.75)!important;
@@ -1581,16 +1582,16 @@ h1{
 	margin-right:8px;
 }
 .menu-item-style-2{
-	font-family:"Lato-Light";
+	font-family:"Montserrat-Light";
 	text-transform:none;
-	color:rgba(255,255,255,0.75)!important;
+	color:#FFFFFF!important;
 	font-weight:normal;
 	text-decoration:none;
 	filter:invert(0%);
 	font-size:16px;
 }
 .menu-item-style-2:hover{
-	color:#FFFFFF!important;
+	color:rgba(255,255,255,0.75)!important;
 }
 .social-ham-links-2:hover{
 	color:#FFFFFF!important;
@@ -1645,6 +1646,131 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	line-height:60px;
 	letter-spacing:2px;
 }
+.fd-list-style{
+	color:var(--swatch-var-1262)!important;
+	background-color:var(--swatch-var-1046);
+}
+.fd-dropdown-list-style{
+	color:var(--swatch-var-1262)!important;
+	background-color:var(--swatch-var-1046);
+	text-align:center;
+	border-radius:10px 10px 10px 10px;
+	border-color:transparent!important;
+	font-family:"Montserrat-Regular";
+}
+.fd-dropdown-list-style1{
+	color:var(--swatch-var-1262)!important;
+	background-color:var(--swatch-var-1046);
+}
+.fd-drop-1{
+	color:var(--swatch-var-7543)!important;
+	background-color:var(--swatch-var-7543);
+}
+.fd-list-1{
+	color:var(--swatch-var-7543)!important;
+}
+.store-h1{
+	font-family:"Helvetica";
+	font-size:40px;
+	font-weight:700;
+	color:#FFFFFF!important;
+}
+.store-logo-style{
+	filter:invert(100%);
+	width:205px;
+	height:15px;
+}
+.storenav-class{
+	border-color:transparent!important;
+	background-color:#000000;
+	color:#000000!important;
+	position:relative;
+	text-align:center;
+}
+.store-text1{
+	font-family:"Helvetica";
+	font-size:16px;
+	color:#FFFFFF!important;
+	font-weight:normal;
+}
+.store-blocs{
+	border-radius:10px 10px 10px 10px;
+	margin-top:20px;
+}
+.store-h1-2{
+	font-family:"Helvetica";
+	font-size:40px;
+	color:#000000!important;
+	font-weight:700;
+}
+.store-text2{
+	font-family:"Helvetica";
+	font-size:18px;
+	color:#000000!important;
+	font-weight:normal;
+}
+.store-button1{
+	color:#FFFFFF!important;
+	border-radius:30px 30px 30px 30px;
+	font-size:16px;
+	font-family:"Montserrat-Medium";
+	background-color:rgba(255,0,0,0.75);
+}
+.store-blocs2{
+	border-radius:10px 10px 10px 10px;
+	margin-top:40px;
+}
+.menu-item-style3{
+	font-family:"Montserrat-Regular";
+	text-transform:none;
+	color:#FFFFFF!important;
+	font-weight:bold;
+	text-decoration:none;
+	filter:invert(0%);
+	font-size:16px;
+}
+.menu-item-style3:hover{
+	color:rgba(255,255,255,0.75)!important;
+}
+.fd-dropdown-list-style1:hover{
+	color:rgba(255,255,255,0.75)!important;
+}
+.fd-dropdown-list-style:hover{
+	color:rgba(255,255,255,0.75)!important;
+}
+.fd-dropdown-subclass2:hover{
+	color:rgba(255,255,255,0.50)!important;
+}
+.serv-h1-style:hover{
+	font-family:"Montserrat-Light";
+}
+.store-button1:hover{
+	background-color:rgba(200,0,0,0.75);
+	color:#FFFFFF!important;
+}
+.img-style{
+	width:150px;
+	padding-left:40px;
+	padding-right:40px;
+}
+.store-blocs:hover{
+	background-color:transparent;
+}
+.h2-style{
+	font-family:Helvetica;
+	font-size:32px;
+}
+.input-container{
+	border-radius:30px 30px 30px 30px;
+	font-size:16px;
+	font-family:"Montserrat-Medium";
+}
+.h2-bloc-4-style{
+	font-size:32px;
+}
+.card-a-class{
+	background-color:transparent;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1672,6 +1798,14 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	
 	--swatch-var-6130:rgba(255,255,255,0.75);
 	
+	--swatch-var-2198:rgba(255,255,255,0.18);
+	
+	--swatch-var-1308:rgba(0,150,255,1.00);
+	
+	--swatch-var-7343:#000000;
+	
+	--swatch-var-6757:rgba(255,255,255,0.15);
+	
 }
 
 
@@ -1679,6 +1813,12 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 
 .bgc-1046{
 	background-color:var(--swatch-var-1046);
+}
+.bgc-7343{
+	background-color:var(--swatch-var-7343);
+}
+.bgc-5411{
+	background-color:var(--swatch-var-5411);
 }
 
 /* Text colour styles */
@@ -1704,6 +1844,10 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 
 /* Icon colour styles */
 
+.icon-1262{
+	color:var(--swatch-var-1262)!important;
+	border-color:var(--swatch-var-1262)!important;
+}
 .icon-6130{
 	color:var(--swatch-var-6130)!important;
 	border-color:var(--swatch-var-6130)!important;
@@ -1782,6 +1926,9 @@ url("img/RS%20BTS%201%20IMG%20360%20verticle%20view.webp") 2x);
 url("img/RS%20Venice%20View%20Clip%201%20darkened.webp") 2x);background-image: image-set(url("img/RS%20Venice%20View%20Clip%201%20darkened.jpg") 1x,
 url("img/RS%20Venice%20View%20Clip%201%20darkened.jpg") 2x,url("img/RS%20Venice%20View%20Clip%201%20darkened.webp") 1x,
 url("img/RS%20Venice%20View%20Clip%201%20darkened.webp") 2x);
+}
+.bg-Galaxy-20Background{
+	background-image:url("img/Galaxy%20Background.webp");
 }
 
 
@@ -1870,10 +2017,6 @@ url("img/RS%20Venice%20View%20Clip%201%20darkened.webp") 2x);
 		height:15px;
 		width:140px;
 	}
-	.h1-style{
-		width:100%;
-		line-height:px;
-	}
 	.dev-nav{
 		margin:auto auto auto auto;
 	}
@@ -1948,7 +2091,6 @@ url("img/RS%20Venice%20View%20Clip%201%20darkened.webp") 2x);
 	.feat-disc{
 		font-size:36px;
 		font-weight:bold;
-		width:75%;
 	}
 	.cont-class{
 		padding-bottom:300px;
@@ -1961,7 +2103,7 @@ url("img/RS%20Venice%20View%20Clip%201%20darkened.webp") 2x);
 		width:75%;
 	}
 	.view-more-links{
-		font-family:"Lato-Light";
+		font-family:"Montserrat-Light";
 		font-weight:500;
 		background-size:auto auto;
 		font-size:18px;
@@ -1983,7 +2125,7 @@ url("img/RS%20Venice%20View%20Clip%201%20darkened.webp") 2x);
 		font-size:20px;
 		padding-top:25px;
 		padding-bottom:25px;
-		font-family:"Lato-Light";
+		font-family:"Lato-Regular";
 	}
 	.faq-p-text{
 		font-size:24px;
@@ -1992,7 +2134,7 @@ url("img/RS%20Venice%20View%20Clip%201%20darkened.webp") 2x);
 		font-size:14px;
 	}
 	.fd-h1-style{
-		color:rgba(255,255,255,0.75)!important;
+		color:#FFFFFF!important;
 	}
 	.p-bloc-2-style{
 		font-size:20px;
@@ -2006,7 +2148,7 @@ url("img/RS%20Venice%20View%20Clip%201%20darkened.webp") 2x);
 		font-weight:300;
 	}
 	.h4-style{
-		font-size:36px;
+		font-size:28px;
 	}
 	.fd-style2{
 		font-size:22px;
@@ -2026,14 +2168,14 @@ url("img/RS%20Venice%20View%20Clip%201%20darkened.webp") 2x);
 		border-radius:25px 25px 25px 25px;
 	}
 	.click-here-style{
-		font-size:30px;
+		font-size:28px;
 	}
 	.serv-foot-style{
 		font-size:34px;
 	}
 	.faq-foot-style{
-		font-size:30px;
-		color:rgba(255,255,255,0.75)!important;
+		font-size:28px;
+		color:#FFFFFF!important;
 	}
 	.fd-for-mast-boxes{
 		margin-right:0%;
@@ -2090,6 +2232,19 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	.faq-links:hover{
 		font-size:20px;
 	}
+	.faq-h2-style{
+		font-size:28px;
+	}
+	.click-here-style:hover{
+		font-size:28px;
+	}
+	.faq-links:active{
+	}
+	.h4-style:hover{
+	}
+	.serv-card-class{
+		box-shadow:inset 0.00px -0.00px 5px #FFFFFF;
+	}
 	
 	/* MD Row Margin Offsets */
 	.voffset-clear-md{
@@ -2107,11 +2262,6 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	.navbar-brand img{
 		width:140px;
 		height:15px;
-	}
-	.h1-style{
-		font-size:45px;
-		width:100%;
-		line-height:px;
 	}
 	.mt-1{
 	}
@@ -2213,7 +2363,6 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		font-size:30px;
 		padding-top:25px;
 		padding-bottom:25px;
-		width:100%;
 	}
 	.rsm-text-2{
 		font-size:25px;
@@ -2268,7 +2417,7 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		font-size:22px;
 	}
 	.h4-style{
-		font-size:30px;
+		font-size:28px;
 	}
 	.acc-link-icon{
 	}
@@ -2305,7 +2454,7 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		font-size:32px;
 	}
 	.faq-foot-style{
-		font-size:28px;
+		font-size:26px;
 	}
 	.faq-h1-style{
 		font-size:32px;
@@ -2381,6 +2530,19 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		text-transform:uppercase;
 		line-height:60px;
 	}
+	.menu-item-style3{
+		font-family:"Lato-Light";
+		font-weight:normal;
+	}
+	.faq-h2-style{
+		font-size:26px;
+	}
+	.click-here-style:hover{
+		font-size:28px;
+	}
+	.serv-card-class{
+		box-shadow:inset 0.00px -0.00px 5px #FFFFFF;
+	}
 	
 	/* Small Text Margin Offsets */
 	.mg-clear-sm{
@@ -2392,11 +2554,6 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 @media (max-width: 575px){
 	.navbar-brand img{
 		width:140px;
-	}
-	.h1-style{
-		font-size:30px;
-		width:100%;
-		line-height:px;
 	}
 	.mt-1{
 	}
@@ -2548,7 +2705,6 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		padding-bottom:20px;
 		font-family:"Lato-LightItalic";
 		font-weight:bold;
-		width:100%;
 	}
 	.flex-wrapper{
 	}
@@ -2599,7 +2755,7 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		width:100%;
 	}
 	.faq-links{
-		color:#2896FF!important;
+		color:#0096FF!important;
 		font-size:20px;
 		text-decoration:none;
 		padding-top:20px;
@@ -2653,6 +2809,7 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		font-size:26px;
 	}
 	.click-here-style:hover{
+		font-size:26px;
 	}
 	.serv-foot-style{
 		font-size:30px;
@@ -2684,11 +2841,14 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		font-size:26px;
 	}
 	.pre-footer-text:hover{
-		font-family:"Lato-Light";
-		color:#FFFFFF!important;
+		font-family:"Montserrat-Light";
+		color:rgba(255,255,255,0.75)!important;
 	}
 	.serv-card-class{
 		border-width:3px 3px 3px 3px;
+		border-style:solid;
+		background-color:var(--swatch-var-1046);
+		box-shadow:inset 0.00px -0.00px 5px #FFFFFF;
 	}
 	.fd-for-mix-boxes{
 		border-color:#FFFFFF!important;
@@ -2780,6 +2940,13 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		font-family:"Lato-Light";
 		text-transform:uppercase;
 		line-height:60px;
+	}
+	.menu-item-style3{
+		font-family:"Lato-Light";
+		font-weight:normal;
+	}
+	.faq-h2-style{
+		font-size:24px;
 	}
 	
 	/* Mobile Text Margin Offsets */
