@@ -25,6 +25,15 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 -------------------------------------------------------------- */
 
 @font-face {
+	font-family:'Lato-Regular';
+	src: url('./fonts/Lato-Regular/Lato-Regular.ttf');
+	src: url('./fonts/Lato-Regular/Lato-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display:swap;
+}
+
+@font-face {
 	font-family:'Lato-Light';
 	src: url('./fonts/Lato-Light/Lato-Light.ttf');
 	src: url('./fonts/Lato-Light/Lato-Light.ttf') format('truetype');
@@ -37,15 +46,6 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 	font-family:'Montserrat-Light';
 	src: url('./fonts/Montserrat-Light/Montserrat-Light.ttf');
 	src: url('./fonts/Montserrat-Light/Montserrat-Light.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-	font-display:swap;
-}
-
-@font-face {
-	font-family:'Lato-Regular';
-	src: url('./fonts/Lato-Regular/Lato-Regular.ttf');
-	src: url('./fonts/Lato-Regular/Lato-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 	font-display:swap;
@@ -829,6 +829,7 @@ h1{
 .p-bloc-2-style{
 	font-size:22px;
 	font-family:"Lato-Regular";
+	color:#FFFFFF!important;
 }
 .h1-style2{
 	font-size:32px;
@@ -1251,7 +1252,6 @@ h1{
 	color:#FFFFFF!important;
 }
 .faq-topics-text:hover{
-	box-shadow:inset 0.00px -0.00px 5px #000000;
 	background-color:rgba(0,127,255,0.50);
 	color:#FFFFFF!important;
 	font-family:"Lato-Regular";
@@ -1266,7 +1266,7 @@ h1{
 	color:#0096FF!important;
 	text-align:center;
 	text-decoration:none;
-	font-family:"Lato-Light";
+	font-family:"Lato-Regular";
 	z-index:3;
 }
 .faq-links:hover{
@@ -1274,7 +1274,7 @@ h1{
 	text-align:center;
 	text-decoration:none;
 	font-size:22px;
-	font-family:"Lato-Light";
+	font-family:"Lato-Regular";
 }
 .label-style{
 	font-size:16px;
@@ -1331,7 +1331,7 @@ h1{
 	font-size:20px;
 }
 .learn-more-style:hover{
-	background-color:rgba(0,115,225,0.40);
+	background-color:#005AB4;
 	color:#FFFFFF!important;
 	box-shadow:0.00px -0.00px 5px #000000;
 }
@@ -1756,6 +1756,24 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 .card-a-class{
 	background-color:transparent;
 }
+.fd-see-also-link{
+	text-decoration:none;
+	color:var(--swatch-var-1308)!important;
+	text-transform:none;
+	font-size:24px;
+	font-family:"Lato-Light";
+}
+.fd-see-also-link:hover{
+	text-decoration:none;
+	font-family:"Lato-Light";
+	font-size:24px;
+	color:rgba(0,150,255,0.75)!important;
+}
+.fd-see-also-text{
+	font-size:24px;
+	color:#FFFFFF!important;
+	font-family:"Lato-Light";
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1783,7 +1801,7 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	
 	--swatch-var-6130:rgba(255,255,255,0.75);
 	
-	--swatch-var-2198:rgba(255,255,255,0.18);
+	--swatch-var-2198:rgba(29,32,35,1.00);
 	
 	--swatch-var-1308:rgba(0,150,255,1.00);
 	
@@ -1811,11 +1829,11 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 .tc-1280{
 	color:var(--swatch-var-1280)!important;
 }
-.tc-6130{
-	color:var(--swatch-var-6130)!important;
-}
 .tc-1262{
 	color:var(--swatch-var-1262)!important;
+}
+.tc-6130{
+	color:var(--swatch-var-6130)!important;
 }
 
 /* Link colour styles */
@@ -1832,10 +1850,6 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 .icon-1262{
 	color:var(--swatch-var-1262)!important;
 	border-color:var(--swatch-var-1262)!important;
-}
-.icon-6130{
-	color:var(--swatch-var-6130)!important;
-	border-color:var(--swatch-var-6130)!important;
 }
 
 /* Bloc image backgrounds */
@@ -2234,6 +2248,15 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	.serv-card-class{
 		box-shadow:inset 0.00px -0.00px 5px #FFFFFF;
 	}
+	.learn-more-style:hover{
+		background-color:#005AB4;
+	}
+	.fd-see-also-link{
+		font-size:24px;
+	}
+	.fd-see-also-link:hover{
+		font-size:24px;
+	}
 	
 	/* MD Row Margin Offsets */
 	.voffset-clear-md{
@@ -2531,6 +2554,15 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	}
 	.serv-card-class{
 		box-shadow:inset 0.00px -0.00px 5px #FFFFFF;
+	}
+	.learn-more-style:hover{
+		background-color:#005AB4;
+	}
+	.fd-see-also-link{
+		font-size:24px;
+	}
+	.fd-see-also-link:hover{
+		font-size:24px;
 	}
 	
 	/* Small Text Margin Offsets */
@@ -2936,6 +2968,20 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	}
 	.faq-h2-style{
 		font-size:24px;
+	}
+	.learn-more-style:hover{
+		background-color:#005AB4;
+	}
+	.faq-topics-text:hover{
+	}
+	.fd-see-also-link{
+		font-size:20px;
+	}
+	.fd-see-also-link:hover{
+		font-size:20px;
+	}
+	.fd-see-also-text{
+		font-size:20px;
 	}
 	
 	/* Mobile Text Margin Offsets */
