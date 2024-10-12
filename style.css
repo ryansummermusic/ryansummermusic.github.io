@@ -1774,6 +1774,9 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	color:#FFFFFF!important;
 	font-family:"Lato-Light";
 }
+.view-more-links:active{
+	background-color:#FFFFFF;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
