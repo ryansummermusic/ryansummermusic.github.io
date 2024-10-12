@@ -173,19 +173,6 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 }
 
 
-/* Background Styles */
-
-.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
-	-webkit-background-size: auto!important;
-	-moz-background-size: auto!important;
-	-o-background-size: auto!important;
-	background-size: auto!important;
-}
-.bg-repeat{
-	background-repeat:repeat!important;
-}
-
-
 /* Background Textures */
 
 .bloc-bg-texture::before{
