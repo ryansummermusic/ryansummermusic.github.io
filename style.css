@@ -25,15 +25,6 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 -------------------------------------------------------------- */
 
 @font-face {
-	font-family:'Lato-Regular';
-	src: url('./fonts/Lato-Regular/Lato-Regular.ttf');
-	src: url('./fonts/Lato-Regular/Lato-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-	font-display:swap;
-}
-
-@font-face {
 	font-family:'Lato-Light';
 	src: url('./fonts/Lato-Light/Lato-Light.ttf');
 	src: url('./fonts/Lato-Light/Lato-Light.ttf') format('truetype');
@@ -46,6 +37,15 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 	font-family:'Montserrat-Light';
 	src: url('./fonts/Montserrat-Light/Montserrat-Light.ttf');
 	src: url('./fonts/Montserrat-Light/Montserrat-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display:swap;
+}
+
+@font-face {
+	font-family:'Lato-Regular';
+	src: url('./fonts/Lato-Regular/Lato-Regular.ttf');
+	src: url('./fonts/Lato-Regular/Lato-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 	font-display:swap;
@@ -1776,6 +1776,11 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 }
 .view-more-links:active{
 	background-color:#FFFFFF;
+	font-size:20px;
+	color:#000000!important;
+	font-weight:500;
+	font-family:"Montserrat-Light";
+	text-align:center;
 }
 
 /* = Colour
@@ -2260,6 +2265,13 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	.fd-see-also-link:hover{
 		font-size:24px;
 	}
+	.view-more-links:active{
+		color:#000000!important;
+		font-size:18px;
+		font-family:"Montserrat-Light";
+		font-weight:500;
+		text-align:center;
+	}
 	
 	/* MD Row Margin Offsets */
 	.voffset-clear-md{
@@ -2392,10 +2404,10 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		width:75%;
 	}
 	.view-more-links{
-		font-size:16px;
+		font-size:18px;
 	}
 	.view-more-links:hover{
-		font-size:16px;
+		font-size:18px;
 	}
 	.player-widget{
 	}
@@ -2566,6 +2578,13 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	}
 	.fd-see-also-link:hover{
 		font-size:24px;
+	}
+	.view-more-links:active{
+		font-size:18px;
+		color:#000000!important;
+		text-align:center;
+		font-family:"Montserrat-Light";
+		font-weight:500;
 	}
 	
 	/* Small Text Margin Offsets */
@@ -2752,13 +2771,13 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	}
 	.view-more-links{
 		color:#FFFFFF!important;
-		font-size:16px;
+		font-size:18px;
 		text-decoration:none;
 		border-width:1px 1px 1px 1px;
 		border-radius:100px 100px 100px 100px;
 	}
 	.view-more-links:hover{
-		font-size:16px;
+		font-size:18px;
 	}
 	.menu-icon-0-stroke{
 		stroke:var(--swatch-var-1262)!important;
@@ -2985,6 +3004,12 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	}
 	.fd-see-also-text{
 		font-size:20px;
+	}
+	.view-more-links:active{
+	}
+	.view-more-links:focus{
+	}
+	.ham-burgeer:active{
 	}
 	
 	/* Mobile Text Margin Offsets */
