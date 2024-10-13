@@ -1212,6 +1212,8 @@ h1{
 }
 .menu-item-style:hover{
 	color:rgba(255,255,255,0.75)!important;
+	font-family:"Lato-Regular";
+	font-weight:300;
 }
 .view-more-links-end{
 	font-size:20px;
@@ -1562,17 +1564,21 @@ h1{
 	background-size:cover;
 }
 .social-ham-links-2{
-	color:rgba(255,255,255,0.75)!important;
+	color:#FFFFFF!important;
+}
+.social-ham-links-1{
+	color:#FFFFFF!important;
 }
 .social-ham-links-3{
 	margin-left:8px;
 	margin-right:8px;
+	color:#FFFFFF!important;
 }
 .menu-item-style-2{
-	font-family:"Montserrat-Light";
+	font-family:"Lato-Regular";
 	text-transform:none;
 	color:#FFFFFF!important;
-	font-weight:normal;
+	font-weight:300;
 	text-decoration:none;
 	filter:invert(0%);
 	font-size:16px;
@@ -1581,7 +1587,10 @@ h1{
 	color:rgba(255,255,255,0.75)!important;
 }
 .social-ham-links-2:hover{
-	color:#FFFFFF!important;
+	color:rgba(255,255,255,0.75)!important;
+}
+.social-ham-links-3:hover{
+	color:rgba(255,255,255,0.75)!important;
 }
 .faqs-icon{
 	color:rgba(255,255,255,0.75)!important;
@@ -1645,6 +1654,7 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	border-color:transparent!important;
 	font-family:"Lato-Regular";
 	font-size:16px;
+	font-weight:300;
 }
 .fd-dropdown-list-style1{
 	color:var(--swatch-var-1262)!important;
@@ -1725,9 +1735,18 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 }
 .fd-dropdown-list-style:hover{
 	color:rgba(255,255,255,0.75)!important;
+	font-family:"Lato-Regular";
+	font-weight:300;
+}
+.fd-dropdown-subclass2{
+	color:#FFFFFF!important;
+	font-family:"Lato-Regular";
+	font-weight:300;
 }
 .fd-dropdown-subclass2:hover{
-	color:rgba(255,255,255,0.50)!important;
+	color:rgba(255,255,255,0.75)!important;
+	font-family:"Lato-Regular";
+	font-weight:300;
 }
 .serv-h1-style:hover{
 	font-family:"Montserrat-Light";
@@ -1784,6 +1803,20 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 }
 .view-more-links:focus{
 	background-color:#FFFFFF;
+}
+.ham-burgeer{
+	color:#FFFFFF!important;
+	font-family:"Lato-Regular";
+	font-weight:300;
+}
+.social-ham-links-1:hover{
+	color:rgba(255,255,255,0.75)!important;
+}
+.bot-nav-ham{
+	color:#FFFFFF!important;
+}
+.bot-nav-ham:hover{
+	color:rgba(255,255,255,0.75)!important;
 }
 
 /* = Colour
@@ -2275,6 +2308,11 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		font-weight:500;
 		text-align:center;
 	}
+	.view-more-links:focus{
+	}
+	.fd-dropdown-list-style{
+		font-weight:300;
+	}
 	
 	/* MD Row Margin Offsets */
 	.voffset-clear-md{
@@ -2509,8 +2547,8 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		margin-right:10px;
 	}
 	.menu-item-style{
-		font-family:"Lato-Light";
-		font-weight:normal;
+		font-family:"Lato-Regular";
+		font-weight:300;
 	}
 	.social-ham-links-1{
 		margin-top:15px;
@@ -2522,8 +2560,8 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		margin-right:8px;
 	}
 	.menu-item-style-2{
-		font-family:"Lato-Light";
-		font-weight:normal;
+		font-family:"Lato-Regular";
+		font-weight:300;
 	}
 	.card-p-class{
 		font-size:20px;
@@ -2588,6 +2626,11 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		text-align:center;
 		font-family:"Montserrat-Light";
 		font-weight:500;
+	}
+	.menu-item-style:hover{
+	}
+	.fd-dropdown-list-style{
+		font-weight:300;
 	}
 	
 	/* Small Text Margin Offsets */
@@ -2911,8 +2954,8 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		margin-top:20px;
 	}
 	.menu-item-style{
-		font-family:"Lato-Light";
-		font-weight:normal;
+		font-family:"Lato-Regular";
+		font-weight:300;
 	}
 	.social-ham-links-1{
 		margin-left:10px;
@@ -2928,17 +2971,18 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	.social-ham-links-2:hover{
 	}
 	.menu-item-style-2{
-		font-family:"Lato-Light";
-		font-weight:normal;
+		font-family:"Lato-Regular";
+		font-weight:300;
 	}
 	.bot-nav-ham{
+		color:#FFFFFF!important;
 	}
 	.menu-icon-0-bloc-6-stroke{
 		stroke:rgba(255,255,255,0.75)!important;
 		fill:rgba(255,255,255,0.75)!important;
 	}
 	.bot-nav-ham:hover{
-		color:#FFFFFF!important;
+		color:rgba(255,255,255,0.75)!important;
 	}
 	.bg-image-fixed{
 	}
@@ -3013,6 +3057,21 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	.view-more-links:focus{
 	}
 	.ham-burgeer:active{
+	}
+	.fd-dropdown-list-style{
+		font-weight:300;
+	}
+	.fd-dropdown-subclass2{
+		color:#FFFFFF!important;
+	}
+	.fd-dropdown-subclass2:hover{
+		color:rgba(255,255,255,0.75)!important;
+	}
+	.menu-item-style:hover{
+	}
+	.fd-dropdown-list-style:hover{
+	}
+	.social-ham-links-3:hover{
 	}
 	
 	/* Mobile Text Margin Offsets */
