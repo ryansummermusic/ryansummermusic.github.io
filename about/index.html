@@ -9,15 +9,17 @@
 	<meta name="robots" content="index, follow">
     <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
     
-	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?9061">
-	<link rel="stylesheet" type="text/css" href="../style.css?8686">
-	<link rel="stylesheet" type="text/css" href="../css/animate.min.css?6978">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?9133">
+	<link rel="stylesheet" type="text/css" href="../style.css?6654">
+	<link rel="stylesheet" type="text/css" href="../css/animate.min.css?5161">
 	<link rel="stylesheet" type="text/css" href="../css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/feather.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/linecons.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/ionicons.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,40&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <title>Ryan Summer | About</title>
+	<meta name="theme-color" content="#000000"> <!-- Replace with your preferred color -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 	<!-- Apple Touch Icon links -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -62,7 +64,7 @@
 <div class="page-container">
     
 <!-- primary-nav -->
-<div class="bloc none sticky-nav primarynav-class d-bloc" id="primary-nav" data-bs-theme="dark">
+<div class="bloc none sticky-nav primarynav-class d-bloc full-width-bloc " id="primary-nav" data-bs-theme="dark">
 	<div class="container -md bloc-no-padding-md bloc-no-padding bloc-no-padding-lg">
 		<div class="row none">
 			<div class="col">
@@ -121,7 +123,7 @@
 <!-- primary-nav END -->
 
 <!-- bloc-1 -->
-<div class="bloc none animSpeed10 bg-image-fixed bloc-bg-texture texture-pixels d-bloc full-width-bloc bloc-fill-screen b-parallax " id="bloc-1">
+<div class="bloc none animSpeed10 bg-image-fixed bloc-bg-texture texture-pixels d-bloc full-width-bloc bloc-fill-screen b-parallax" id="bloc-1">
 	<div class="parallax bg-Ryan-20DT-20LA">
 	</div>
 	<div class="container">
@@ -248,7 +250,7 @@
 
 
 <!-- bloc-6 -->
-<div class="bloc full-width-bloc bloc-bg-texture texture-darken-strong bgc-1046 d-bloc" id="bloc-6">
+<div class="bloc full-width-bloc bgc-1046 d-bloc" id="bloc-6">
 	<div class="container bloc-no-padding bloc-no-padding-sm bloc-no-padding-lg">
 		<div class="row">
 			<div class="col-12">
@@ -258,28 +260,38 @@
 						<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 bot-nav-ham" aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse" data-bs-target=".navbar-5357">
 							<span class="navbar-toggler-icon"><svg height="32" viewBox="0 0 32 32" width="32"><path data-custom-classes=" menu-icon-bloc-6-stroke menu-icon-0-stroke menu-icon-0-bloc-6-stroke" class="svg-menu-icon menu-icon-bloc-6-stroke menu-icon-0-stroke menu-icon-0-bloc-6-stroke" d="m2 9h28m-28 7h28m-28 7h28" auto-style-class="menu-icon-0-bloc-6-stroke"></path></svg></span>
 						</button>
-						<div class="collapse navbar-collapse navbar-45833 navbar-44110 navbar-35368 navbar-5357  fullscreen-nav">
+						<div class="collapse navbar-collapse navbar-45833 navbar-44110 navbar-35368 navbar-5357  fullscreen-nav open-up">
 								<ul class="site-navigation nav navbar-nav mx-auto justify-content-center pb-lg-2 pb-md-2 pb-sm-2">
-									<li class="nav-item">
-										<a href="../" class="nav-link a-btn menu-item-style-2 animated pulse-hvr">Home</a>
-									</li>
 									<li class="nav-item">
 										<a href="../discography/" class="nav-link a-btn menu-item-style-2 animated pulse-hvr">Discography</a>
 									</li>
 									<li class="nav-item">
 										<a href="../services/" class="nav-link a-btn menu-item-style-2 animated pulse-hvr">Services</a>
 									</li>
-									<li class="nav-item">
-										<a href="../faqs/" class="nav-link a-btn menu-item-style-2 animated pulse-hvr">FAQs</a>
+									<li class="nav-item   d-sm-none d-block">
+										<div class="dropdown btn-dropdown dropdown">
+											<a href="#" class="nav-link animated pulse-hvr dropdown-toggle menu-item-style-2" data-bs-toggle="dropdown" aria-expanded="false">File Delivery</a>
+											<ul class="dropdown-menu fd-dropdown-list-style" role="menu">
+												<li class="nav-item animated pulse-hvr">
+													<a href="../file-delivery-mixing/" class="nav-link a-btn fd-dropdown-subclass2">Mixing</a>
+												</li>
+												<li class="nav-item animated pulse-hvr">
+													<a href="../file-delivery-mastering/" class="nav-link a-btn fd-dropdown-subclass2">Mastering</a>
+												</li>
+											</ul>
+										</div>
 									</li>
 									<li class="nav-item">
-										<a href="https://shop.ryansummer.com" class="nav-link a-btn menu-item-style-2 animated pulse-hvr">Store</a>
+										<a href="../faqs/" class="nav-link a-btn menu-item-style-2 animated pulse-hvr">FAQs</a>
 									</li>
 									<li class="nav-item">
 										<a href="." class="nav-link a-btn menu-item-style-2 animated pulse-hvr">About</a>
 									</li>
 									<li class="nav-item">
 										<a href="../contact/" class="nav-link menu-item-style-2 animated pulse-hvr">Contact</a>
+									</li>
+									<li class="nav-item">
+										<a href="https://shop.ryansummer.com" class="nav-link a-btn menu-item-style-2 animated pulse-hvr">Store</a>
 									</li>
 									<li class="mt-2   d-sm-none d-block">
 										<div class="text-center   d-sm-none d-block">
@@ -307,11 +319,11 @@
 
 
 <!-- Additional JS -->
-<script src="../js/bootstrap.bundle.min.js?4937"></script>
-<script src="../js/blocs.min.js?1114"></script>
+<script src="../js/bootstrap.bundle.min.js?7668"></script>
+<script src="../js/blocs.min.js?8617"></script>
 <script src="../js/lazysizes.min.js" defer></script>
-<script src="../js/universal-parallax.min.js?625"></script>
-<script src="../js/scrollFX.js?6077"></script>
+<script src="../js/universal-parallax.min.js?2449"></script>
+<script src="../js/scrollFX.js?8075"></script>
 <!-- Additional JS END -->
 
 
