@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://ryansummer.com</loc>
-	<lastmod>2024-10-12</lastmod>
+	<lastmod>2024-11-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -88,9 +88,17 @@
 </url>
 <url>
 	<loc>https://ryansummer.com/discography/</loc>
-	<lastmod>2024-10-12</lastmod>
+	<lastmod>2024-11-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Manal_Arabian_Heartbreak_Album.jpg</image:loc>
+	<image:title>Shallou_Its_You</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Manal_Arabian_Heartbreak_Album.webp</image:loc>
+	<image:title>Shallou_Its_You</image:title>
+	</image:image>
 	<image:image>
 	<image:loc>https://ryansummer.com/img/JVKE_this_is_what_forever_feels_like.jpg</image:loc>
 	<image:title>Shallou_Its_You</image:title>
@@ -950,7 +958,7 @@
 </url>
 <url>
 	<loc>https://ryansummer.com/faqs/</loc>
-	<lastmod>2024-10-12</lastmod>
+	<lastmod>2024-11-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -964,7 +972,7 @@
 </url>
 <url>
 	<loc>https://ryansummer.com/file-delivery-mastering/</loc>
-	<lastmod>2024-10-12</lastmod>
+	<lastmod>2024-11-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -986,7 +994,7 @@
 </url>
 <url>
 	<loc>https://ryansummer.com/about/</loc>
-	<lastmod>2024-10-12</lastmod>
+	<lastmod>2024-11-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1000,7 +1008,7 @@
 </url>
 <url>
 	<loc>https://ryansummer.com/services/</loc>
-	<lastmod>2024-10-12</lastmod>
+	<lastmod>2024-11-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1014,7 +1022,7 @@
 </url>
 <url>
 	<loc>https://ryansummer.com/contact/</loc>
-	<lastmod>2024-10-12</lastmod>
+	<lastmod>2024-11-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1028,7 +1036,7 @@
 </url>
 <url>
 	<loc>https://ryansummer.com/file-delivery-mixing/</loc>
-	<lastmod>2024-10-12</lastmod>
+	<lastmod>2024-11-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
