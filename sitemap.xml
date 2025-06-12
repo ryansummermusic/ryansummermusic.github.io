@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://ryansummer.com</loc>
-	<lastmod>2024-12-12</lastmod>
+	<lastmod>2025-06-12</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -130,19 +130,127 @@
 	<image:title>Shallou - You and Me</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://ryansummer.com/img/RYAN%20SUMMER%20INVOICE%20LOGO%202.png</image:loc>
+	<image:loc>https://ryansummer.com/img/Ryan-DT-LA-1200x630.jpg</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://ryansummer.com/img/RYAN%20SUMMER%20INVOICE%20LOGO%202.png</image:loc>
+	<image:loc>https://ryansummer.com/img/Ryan-DT-LA-1200x630.jpg</image:loc>
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
 <url>
 	<loc>https://ryansummer.com/discography/</loc>
-	<lastmod>2024-12-12</lastmod>
+	<lastmod>2025-06-12</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/KR%24NA_Yours_Truly_Mixtape.jpg</image:loc>
+	<image:title>KR$NA_Yours_Truly_Mixtape</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/KR%24NA_Yours_Truly_Mixtape.webp</image:loc>
+	<image:title>KR$NA_Yours_Truly_Mixtape</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/shallou_Alex_Bone_Think_About.png</image:loc>
+	<image:title>shallou_Alex_Bone_Think_About</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/shallou_Alex_Bone_Think_About.webp</image:loc>
+	<image:title>shallou_Alex_Bone_Think_About</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Chanel_West_Coast_Lil_Bit_Country.jpg</image:loc>
+	<image:title>Chanel_West_Coast_Lil_Bit_Country</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Chanel_West_Coast_Lil_Bit_Country.webp</image:loc>
+	<image:title>Chanel_West_Coast_Lil_Bit_Country</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Kith_Fabolous_Lexa_Gates_Jadakiss_New_York_To_The_World.jpg</image:loc>
+	<image:title>Kith_Fabolous_Lexa_Gates_Jadakiss_New_York_To_The_World</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Kith_Fabolous_Lexa_Gates_Jadakiss_New_York_To_The_World.webp</image:loc>
+	<image:title>Kith_Fabolous_Lexa_Gates_Jadakiss_New_York_To_The_World</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Kyndal_Inskeep_The_Voice.png</image:loc>
+	<image:title>Kyndal_Inskeep_The_Voice</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Kyndal_Inskeep_The_Voice.webp</image:loc>
+	<image:title>Kyndal_Inskeep_The_Voice</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/shallou_Habitat.jpg</image:loc>
+	<image:title>shallou_Habitat</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/shallou_Habitat.webp</image:loc>
+	<image:title>shallou_Habitat</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/shallou_25,_winter.jpg</image:loc>
+	<image:title>shallou_25,_winter</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/shallou_25,_winter.webp</image:loc>
+	<image:title>shallou_25,_winter</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Michael_O._Annies_Song.png</image:loc>
+	<image:title>Michael_O._Annies_Song</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Michael_O._Annies_Song.webp</image:loc>
+	<image:title>Michael_O._Annies_Song</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Mehgan_James_Just_for_Fun.webp</image:loc>
+	<image:title>Mehgan_James_Just_for_Fun</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/shallou_Gone_So_Far.jpg</image:loc>
+	<image:title>shallou_Gone_So_Far</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/shallou_Gone_So_Far.webp</image:loc>
+	<image:title>shallou_Gone_So_Far</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Michael_O_Attention.jpg</image:loc>
+	<image:title>Michael_O_Attention</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Michael_O_Attention.webp</image:loc>
+	<image:title>Michael_O_Attention</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Kasbo_Shallou_BJOERN_Atlantis.jpg</image:loc>
+	<image:title>Kasbo_Shallou_BJOERN_Atlantis</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Kasbo_Shallou_BJOERN_Atlantis.webp</image:loc>
+	<image:title>Kasbo_Shallou_BJOERN_Atlantis</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Michael_O._Careless_Whispers.webp</image:loc>
+	<image:title>Michael_O._Careless_Whispers</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Paradox_Tantrums.webp</image:loc>
+	<image:title>Paradox_Tantrums</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Micah_Palace_No_Diddy.jpg</image:loc>
+	<image:title>Micah_Palace_No_Diddy</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Micah_Palace_No_Diddy.webp</image:loc>
+	<image:title>Micah_Palace_No_Diddy</image:title>
+	</image:image>
 	<image:image>
 	<image:loc>https://ryansummer.com/img/shallou_24_autumn_EP.jpg</image:loc>
 	<image:title>shallou_24_autumn_EP</image:title>
@@ -150,6 +258,14 @@
 	<image:image>
 	<image:loc>https://ryansummer.com/img/shallou_24_autumn_EP.webp</image:loc>
 	<image:title>shallou_24_autumn_EP</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/shallou_edapollo_True.jpg</image:loc>
+	<image:title>shallou_edapollo_True</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/shallou_edapollo_True.webp</image:loc>
+	<image:title>shallou_edapollo_True</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://ryansummer.com/img/Manal_Arabian_Heartbreak_Album.jpg</image:loc>
@@ -160,20 +276,52 @@
 	<image:title>Manal_Arabian_Heartbreak_Album</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://ryansummer.com/img/JVKE_this_is_what_forever_feels_like.jpg</image:loc>
-	<image:title>JVKE_this_is_what_forever_feels_like</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://ryansummer.com/img/JVKE_this_is_what_forever_feels_like.webp</image:loc>
-	<image:title>JVKE_this_is_what_forever_feels_like</image:title>
-	</image:image>
-	<image:image>
 	<image:loc>https://ryansummer.com/img/Shallou_Its_You.jpeg</image:loc>
 	<image:title>Shallou_Its_You</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://ryansummer.com/img/Shallou_Its_You.webp</image:loc>
 	<image:title>Shallou_Its_You</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/shallou_24_summer_EP.jpg</image:loc>
+	<image:title>shallou_24_summer_EP</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/shallou_24_summer_EP.webp</image:loc>
+	<image:title>shallou_24_summer_EP</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Niahn_Vegas_Everyday.png</image:loc>
+	<image:title>Niahn_Vegas_Everyday</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Niahn_Vegas_Everyday.webp</image:loc>
+	<image:title>Niahn_Vegas_Everyday</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/J_Desir_Call_Me_Up.jpg</image:loc>
+	<image:title>J_Desir_Call_Me_Up</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/J_Desir_Call_Me_Up.webp</image:loc>
+	<image:title>J_Desir_Call_Me_Up</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/J_Desir_Pa_Di_Sa.jpg</image:loc>
+	<image:title>J_Desir_Call_Me_Up</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/J_Desir_Pa_Di_Sa.webp</image:loc>
+	<image:title>J_Desir_Call_Me_Up</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/JVKE_this_is_what_forever_feels_like.jpg</image:loc>
+	<image:title>JVKE_this_is_what_forever_feels_like</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/JVKE_this_is_what_forever_feels_like.webp</image:loc>
+	<image:title>JVKE_this_is_what_forever_feels_like</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://ryansummer.com/img/KR%24NA_For_The_Day_Ones.jpg</image:loc>
@@ -238,6 +386,14 @@
 	<image:image>
 	<image:loc>https://ryansummer.com/img/Shallou_iwaly.webp</image:loc>
 	<image:title>Shallou_iwaly.jpg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Rounhaa_Stormy_Killa.png</image:loc>
+	<image:title>Rounhaa_Stormy_Killa</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Rounhaa_Stormy_Killa.webp</image:loc>
+	<image:title>Rounhaa_Stormy_Killa</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://ryansummer.com/img/Johnny_Huynh_Cheater.jpg</image:loc>
@@ -584,6 +740,14 @@
 	<image:title>Drea Dury   Atardece (Album)</image:title>
 	</image:image>
 	<image:image>
+	<image:loc>https://ryansummer.com/img/Michael_O._Overload.png</image:loc>
+	<image:title>Michael_O._Overload</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Michael_O._Overload.webp</image:loc>
+	<image:title>Michael_O._Overload</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>https://ryansummer.com/img/Shallou%20-%20High%20Tide.jpg</image:loc>
 	<image:title>Shallou   High Tide</image:title>
 	</image:image>
@@ -766,6 +930,14 @@
 	<image:image>
 	<image:loc>https://ryansummer.com/img/Icona%20Pop%20-%20Next%20Mistake.webp</image:loc>
 	<image:title>Icona Pop   Next Mistake</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Lindsey_Stirling_Elle_King_The_Upside.jpg</image:loc>
+	<image:title>Lindsey_Stirling_Elle_King_The_Upside.jpg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Lindsey_Stirling_Elle_King_The_Upside.webp</image:loc>
+	<image:title>Lindsey_Stirling_Elle_King_The_Upside.jpg</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://ryansummer.com/img/ILLENIUM%20-%20Ascend%20%28Album%29.jpg</image:loc>
@@ -952,6 +1124,22 @@
 	<image:title>Daniel Skye   Smile</image:title>
 	</image:image>
 	<image:image>
+	<image:loc>https://ryansummer.com/img/Kyle_Dion_Hold_On_to_Me.jpg</image:loc>
+	<image:title>Kyle_Dion_Hold_On_to_Me</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Kyle_Dion_Hold_On_to_Me.webp</image:loc>
+	<image:title>Kyle_Dion_Hold_On_to_Me</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Kyle_Dion_Painting_Sounds.jpg</image:loc>
+	<image:title>Kyle_Dion_Painting_Sounds</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Kyle_Dion_Painting_Sounds.webp</image:loc>
+	<image:title>Kyle_Dion_Painting_Sounds</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>https://ryansummer.com/img/Samantha%20Johnson%20-%20I%20Got%20You.jpg</image:loc>
 	<image:title>Samantha Johnson   I Got You</image:title>
 	</image:image>
@@ -968,31 +1156,31 @@
 	<image:title>Tory Lanez   Chixtape 2 (MIxtape)</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://ryansummer.com/img/RYAN%20SUMMER%20INVOICE%20LOGO%202.png</image:loc>
+	<image:loc>https://ryansummer.com/img/Ryan-DT-LA-1200x630.jpg</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://ryansummer.com/img/RYAN%20SUMMER%20INVOICE%20LOGO%202.png</image:loc>
+	<image:loc>https://ryansummer.com/img/Ryan-DT-LA-1200x630.jpg</image:loc>
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
 <url>
 	<loc>https://ryansummer.com/faqs/</loc>
-	<lastmod>2024-12-12</lastmod>
+	<lastmod>2025-06-12</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
-	<image:loc>https://ryansummer.com/img/RYAN%20SUMMER%20INVOICE%20LOGO%202.png</image:loc>
+	<image:loc>https://ryansummer.com/img/Ryan-DT-LA-1200x630.jpg</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://ryansummer.com/img/RYAN%20SUMMER%20INVOICE%20LOGO%202.png</image:loc>
+	<image:loc>https://ryansummer.com/img/Ryan-DT-LA-1200x630.jpg</image:loc>
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
 <url>
 	<loc>https://ryansummer.com/file-delivery-mastering/</loc>
-	<lastmod>2024-12-12</lastmod>
+	<lastmod>2025-06-12</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1004,67 +1192,67 @@
 	<image:title>RS File Delivery for Mastering</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://ryansummer.com/img/RYAN%20SUMMER%20INVOICE%20LOGO%202.png</image:loc>
+	<image:loc>https://ryansummer.com/img/Ryan-DT-LA-1200x630.jpg</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://ryansummer.com/img/RYAN%20SUMMER%20INVOICE%20LOGO%202.png</image:loc>
+	<image:loc>https://ryansummer.com/img/Ryan-DT-LA-1200x630.jpg</image:loc>
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
 <url>
 	<loc>https://ryansummer.com/about/</loc>
-	<lastmod>2024-12-12</lastmod>
+	<lastmod>2025-06-12</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
-	<image:loc>https://ryansummer.com/img/RYAN%20SUMMER%20INVOICE%20LOGO%202.png</image:loc>
+	<image:loc>https://ryansummer.com/img/Ryan-DT-LA-1200x630.jpg</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://ryansummer.com/img/RYAN%20SUMMER%20INVOICE%20LOGO%202.png</image:loc>
+	<image:loc>https://ryansummer.com/img/Ryan-DT-LA-1200x630.jpg</image:loc>
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
 <url>
 	<loc>https://ryansummer.com/services/</loc>
-	<lastmod>2024-12-12</lastmod>
+	<lastmod>2025-06-12</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
-	<image:loc>https://ryansummer.com/img/RYAN%20SUMMER%20INVOICE%20LOGO%202.png</image:loc>
+	<image:loc>https://ryansummer.com/img/Ryan-DT-LA-1200x630.jpg</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://ryansummer.com/img/RYAN%20SUMMER%20INVOICE%20LOGO%202.png</image:loc>
+	<image:loc>https://ryansummer.com/img/Ryan-DT-LA-1200x630.jpg</image:loc>
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
 <url>
 	<loc>https://ryansummer.com/contact/</loc>
-	<lastmod>2024-12-12</lastmod>
+	<lastmod>2025-06-12</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
-	<image:loc>https://ryansummer.com/img/RYAN%20SUMMER%20INVOICE%20LOGO%202.png</image:loc>
+	<image:loc>https://ryansummer.com/img/Ryan-DT-LA-1200x630.jpg</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://ryansummer.com/img/RYAN%20SUMMER%20INVOICE%20LOGO%202.png</image:loc>
+	<image:loc>https://ryansummer.com/img/Ryan-DT-LA-1200x630.jpg</image:loc>
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
 <url>
 	<loc>https://ryansummer.com/file-delivery-mixing/</loc>
-	<lastmod>2024-12-12</lastmod>
+	<lastmod>2025-06-12</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
-	<image:loc>https://ryansummer.com/img/RYAN%20SUMMER%20INVOICE%20LOGO%202.png</image:loc>
+	<image:loc>https://ryansummer.com/img/Ryan-DT-LA-1200x630.jpg</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://ryansummer.com/img/RYAN%20SUMMER%20INVOICE%20LOGO%202.png</image:loc>
+	<image:loc>https://ryansummer.com/img/Ryan-DT-LA-1200x630.jpg</image:loc>
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
