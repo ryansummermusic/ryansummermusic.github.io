@@ -1818,6 +1818,39 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 .bot-nav-ham:hover{
 	color:rgba(255,255,255,0.75)!important;
 }
+.h1-ts-style{
+	color:#FFFFFF!important;
+	font-size:40px;
+	margin-top:40px;
+	margin-bottom:20px;
+	font-family:"Helvetica";
+}
+.p-ts-style{
+	color:#FFFFFF!important;
+	font-size:18px;
+	font-family:"Helvetica";
+	margin:10px 0px 20px 0px;
+}
+.p-sh-ts-style{
+	color:#FFFFFF!important;
+	font-family:"Helvetica";
+	font-size:18px;
+	margin:40px 0px 10px 0px;
+	font-weight:700;
+}
+.p-ls-ts-style{
+	color:#FFFFFF!important;
+	font-size:18px;
+	font-family:"Helvetica";
+	margin:5px 0px 5px 0px;
+}
+.p-ls-ts-style-link{
+	color:var(--swatch-var-1308)!important;
+}
+.p-ls-ts-style-link:hover{
+	text-decoration:none;
+	color:var(--swatch-var-1308)!important;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -2313,6 +2346,24 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	.fd-dropdown-list-style{
 		font-weight:300;
 	}
+	.p-ts-style{
+		margin-bottom:20px;
+		margin-top:10px;
+		font-size:18px;
+	}
+	.p-sh-ts-style{
+		margin-top:40px;
+		margin-bottom:10px;
+		font-size:18px;
+	}
+	.p-ls-ts-style{
+		margin-bottom:5px;
+		margin-top:5px;
+		font-size:18px;
+	}
+	.h1-ts-style{
+		font-size:40px;
+	}
 	
 	/* MD Row Margin Offsets */
 	.voffset-clear-md{
@@ -2631,6 +2682,24 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	}
 	.fd-dropdown-list-style{
 		font-weight:300;
+	}
+	.h1-ts-style{
+		font-size:36px;
+	}
+	.p-sh-ts-style{
+		margin-top:40px;
+		margin-bottom:10px;
+		font-size:16px;
+	}
+	.p-ts-style{
+		margin-top:10px;
+		margin-bottom:20px;
+		font-size:16px;
+	}
+	.p-ls-ts-style{
+		margin-top:5px;
+		margin-bottom:5px;
+		font-size:16px;
 	}
 	
 	/* Small Text Margin Offsets */
@@ -3072,6 +3141,23 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	.fd-dropdown-list-style:hover{
 	}
 	.social-ham-links-3:hover{
+	}
+	.h1-ts-style{
+		font-size:34px;
+	}
+	.p-sh-ts-style{
+		margin:40px 0px 10px 0px;
+		font-size:16px;
+	}
+	.p-ts-style{
+		margin-top:10px;
+		margin-bottom:20px;
+		font-size:16px;
+	}
+	.p-ls-ts-style{
+		margin-top:5px;
+		margin-bottom:5px;
+		font-size:16px;
 	}
 	
 	/* Mobile Text Margin Offsets */
