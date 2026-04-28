@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://ryansummer.com</loc>
-	<lastmod>2026-03-26</lastmod>
+	<lastmod>2026-04-28</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -140,9 +140,25 @@
 </url>
 <url>
 	<loc>https://ryansummer.com/discography/</loc>
-	<lastmod>2026-03-26</lastmod>
+	<lastmod>2026-04-28</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Karan_Ajujla_TOP_FELLA.jpg</image:loc>
+	<image:title>Karan_Ajujla_TOP_FELLA.jpg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/Karan_Ajujla_TOP_FELLA.webp</image:loc>
+	<image:title>Karan_Ajujla_TOP_FELLA.jpg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/KR%24NA_DHANDA_NYOLIWALA_BOOM_SHAKA.jpg</image:loc>
+	<image:title>KR$NA_DHANDA_NYOLIWALA_BOOM_SHAKA.jpg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://ryansummer.com/img/KR%24NA_DHANDA_NYOLIWALA_BOOM_SHAKA.webp</image:loc>
+	<image:title>KR$NA_DHANDA_NYOLIWALA_BOOM_SHAKA.jpg</image:title>
+	</image:image>
 	<image:image>
 	<image:loc>https://ryansummer.com/img/Chanel_West_Coast_Giddy_Up_feat._DJ_Flict.jpg</image:loc>
 	<image:title>Chanel_West_Coast_Giddy_Up_feat._DJ_Flict.jpg</image:title>
@@ -1230,7 +1246,7 @@
 </url>
 <url>
 	<loc>https://ryansummer.com/faqs/</loc>
-	<lastmod>2026-03-26</lastmod>
+	<lastmod>2026-04-28</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1244,7 +1260,7 @@
 </url>
 <url>
 	<loc>https://ryansummer.com/file-delivery-mastering/</loc>
-	<lastmod>2026-03-26</lastmod>
+	<lastmod>2026-04-28</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1266,7 +1282,7 @@
 </url>
 <url>
 	<loc>https://ryansummer.com/about/</loc>
-	<lastmod>2026-03-26</lastmod>
+	<lastmod>2026-04-28</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1280,7 +1296,7 @@
 </url>
 <url>
 	<loc>https://ryansummer.com/services/</loc>
-	<lastmod>2026-03-26</lastmod>
+	<lastmod>2026-04-28</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1294,7 +1310,7 @@
 </url>
 <url>
 	<loc>https://ryansummer.com/contact/</loc>
-	<lastmod>2026-03-26</lastmod>
+	<lastmod>2026-04-28</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1308,7 +1324,7 @@
 </url>
 <url>
 	<loc>https://ryansummer.com/file-delivery-mixing/</loc>
-	<lastmod>2026-03-26</lastmod>
+	<lastmod>2026-04-28</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1322,7 +1338,7 @@
 </url>
 <url>
 	<loc>https://ryansummer.com/terms-of-service/</loc>
-	<lastmod>2026-03-26</lastmod>
+	<lastmod>2026-04-28</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
