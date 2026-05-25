@@ -34,15 +34,6 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 }
 
 @font-face {
-	font-family:'Lato-Light';
-	src: url('./fonts/Lato-Light/Lato-Light.ttf');
-	src: url('./fonts/Lato-Light/Lato-Light.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-	font-display:swap;
-}
-
-@font-face {
 	font-family:'Montserrat-Light';
 	src: url('./fonts/Montserrat-Light/Montserrat-Light.ttf');
 	src: url('./fonts/Montserrat-Light/Montserrat-Light.ttf') format('truetype');
@@ -55,6 +46,15 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 	font-family:'Lato-Black';
 	src: url('./fonts/Lato-Black/Lato-Black.ttf');
 	src: url('./fonts/Lato-Black/Lato-Black.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display:swap;
+}
+
+@font-face {
+	font-family:'Lato-Light';
+	src: url('./fonts/Lato-Light/Lato-Light.ttf');
+	src: url('./fonts/Lato-Light/Lato-Light.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 	font-display:swap;
@@ -751,12 +751,13 @@ h1{
 	color:#FFFFFF!important;
 	text-align:center;
 	font-family:"Montserrat-Light";
-	font-weight:bold;
+	font-weight:normal;
 	align-content:center;
 	display:flex;
 	font-size:34px;
 	text-transform:uppercase;
 	letter-spacing:6px;
+	text-shadow:0.00px -0.00px 1px #FFFFFF;
 }
 .h1-placeholder-style{
 	font-size:50px;
@@ -881,6 +882,7 @@ h1{
 	font-size:35px;
 	font-family:"Montserrat-Light";
 	font-weight:normal;
+	text-shadow:0.00px -0.00px 1px #FFFFFF;
 }
 .faq-h2-style{
 	font-size:30px;
@@ -907,6 +909,7 @@ h1{
 	background-color:transparent;
 	font-family:"Montserrat-Light";
 	font-weight:normal;
+	text-shadow:0.00px -0.00px 1px #FFFFFF;
 }
 .faq-topics{
 	height:61px;
@@ -1061,10 +1064,11 @@ h1{
 	color:#FFFFFF!important;
 	text-align:center;
 	text-transform:uppercase;
-	font-family:"Lato-Light";
+	font-family:"Montserrat-Light";
 	font-weight:normal;
 	line-height:60px;
 	letter-spacing:2px;
+	text-shadow:0.00px -0.00px 20px #000000;
 }
 .blocs-card-width{
 	width:25%;
@@ -1135,13 +1139,13 @@ h1{
 .listen-style{
 	font-size:32px;
 	font-family:"Montserrat-Light";
-	font-weight:bold;
+	font-weight:normal;
 	color:#FFFFFF!important;
 	text-align:center;
 	text-transform:uppercase;
 	text-decoration:none;
 	letter-spacing:3px;
-	text-shadow:0.00px -0.00px 0px #FFFFFF;
+	text-shadow:0.00px -0.00px 1px #FFFFFF;
 }
 .divider-bloc-20-style{
 	width:50%;
@@ -1289,18 +1293,20 @@ h1{
 .h4-style:hover{
 	color:var(--swatch-var-1262)!important;
 }
-.click-here-style{
+.cta-click-here-style{
 	text-decoration:none;
 	color:var(--swatch-var-1308)!important;
 	text-transform:none;
 	font-size:30px;
 	font-family:"Lato-Light";
+	text-shadow:0.00px -0.00px 1px #FFFFFF;
 }
-.click-here-style:hover{
+.cta-click-here-style:hover{
 	text-decoration:none;
 	font-family:"Lato-Light";
 	font-size:30px;
-	color:rgba(0,150,255,0.75)!important;
+	color:#0076DF!important;
+	text-shadow:0.00px -0.00px 1px #FFFFFF;
 }
 .flex-text-box{
 	align-items:center;
@@ -1383,6 +1389,7 @@ h1{
 	color:#FFFFFF!important;
 	letter-spacing:2px;
 	font-weight:normal;
+	text-shadow:0.00px -0.00px 1px #FFFFFF;
 }
 .serv-foot-style{
 	color:#FFFFFF!important;
@@ -1390,12 +1397,13 @@ h1{
 	font-family:"Lato-Light";
 	font-size:36px;
 }
-.faq-foot-style{
+.cta-foot-style{
 	text-transform:none;
 	text-align:center;
 	color:#FFFFFF!important;
 	font-size:30px;
 	font-family:"Lato-Light";
+	text-shadow:0.00px -0.00px 1px #FFFFFF;
 }
 .fd-button-list-style{
 	background-color:#000000;
@@ -1639,11 +1647,11 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	color:#FFFFFF!important;
 	text-align:center;
 	text-transform:uppercase;
-	font-family:"Lato-Light";
+	font-family:"Montserrat-Light";
 	font-weight:normal;
 	line-height:60px;
 	letter-spacing:2px;
-	text-shadow:0.00px -0.00px 10px #000000;
+	text-shadow:0.00px -0.00px 20px #000000;
 }
 .fd-list-style{
 	color:var(--swatch-var-1262)!important;
@@ -1750,6 +1758,9 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	color:rgba(255,255,255,0.75)!important;
 	font-family:"Lato-Regular";
 	font-weight:300;
+}
+.cta-click-here-style:active{
+	color:#006EDB!important;
 }
 .serv-h1-style:hover{
 	font-family:"Montserrat-Light";
@@ -2244,13 +2255,13 @@ url("img/RS%20Venice%20View%20Clip%201%20darkened.webp") 2x);
 		border-style:double;
 		border-radius:25px 25px 25px 25px;
 	}
-	.click-here-style{
+	.cta-click-here-style{
 		font-size:28px;
 	}
 	.serv-foot-style{
 		font-size:34px;
 	}
-	.faq-foot-style{
+	.cta-foot-style{
 		font-size:28px;
 		color:#FFFFFF!important;
 	}
@@ -2312,7 +2323,7 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	.faq-h2-style{
 		font-size:28px;
 	}
-	.click-here-style:hover{
+	.cta-click-here-style:hover{
 		font-size:28px;
 	}
 	.faq-links:active{
@@ -2561,7 +2572,7 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	.serv-h1-style{
 		font-size:40px;
 	}
-	.click-here-style{
+	.cta-click-here-style{
 		font-size:28px;
 	}
 	.listen-style{
@@ -2570,7 +2581,7 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	.serv-foot-style{
 		font-size:32px;
 	}
-	.faq-foot-style{
+	.cta-foot-style{
 		font-size:26px;
 	}
 	.faq-h1-style{
@@ -2654,7 +2665,7 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	.faq-h2-style{
 		font-size:26px;
 	}
-	.click-here-style:hover{
+	.cta-click-here-style:hover{
 		font-size:28px;
 	}
 	.serv-card-class{
@@ -2968,16 +2979,16 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	.divider-background-color{
 		background-color:var(--swatch-var-1262);
 	}
-	.click-here-style{
+	.cta-click-here-style{
 		font-size:26px;
 	}
-	.click-here-style:hover{
+	.cta-click-here-style:hover{
 		font-size:26px;
 	}
 	.serv-foot-style{
 		font-size:30px;
 	}
-	.faq-foot-style{
+	.cta-foot-style{
 		font-size:26px;
 	}
 	.faq-h1-style{
