@@ -2652,13 +2652,13 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 		font-weight:300;
 	}
 	.social-ham-links-1{
-		margin-top:15px;
 		margin-left:10px;
 		margin-right:10px;
 	}
 	.social-ham-links-3{
 		margin-left:8px;
 		margin-right:8px;
+		margin-top:10px;
 	}
 	.menu-item-style-2{
 		font-family:"Lato-Regular";
@@ -2777,6 +2777,10 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	}
 	.for-class{
 		text-align:center;
+	}
+	.menu-icon-0-bloc-6-stroke{
+		stroke:rgba(255,255,255,0.75)!important;
+		fill:rgba(255,255,255,0.75)!important;
 	}
 	
 	/* Small Text Margin Offsets */
@@ -3110,7 +3114,6 @@ url("img/Ryan%20DT%20LA.webp") 2x);
 	.social-ham-links-1{
 		margin-left:10px;
 		margin-right:10px;
-		margin-top:20px;
 	}
 	.social-ham-links-3{
 		margin-left:8px;
